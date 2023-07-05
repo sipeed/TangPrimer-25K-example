@@ -1,2 +1,9 @@
 # TangPrimer-25K-example
-TangPrimer-25K-example project
+
+- Need Gowin IDE Version > 1.9.9
+
+## Example
+
+### pmod_led
+
+An example to drive the pmod leds.
