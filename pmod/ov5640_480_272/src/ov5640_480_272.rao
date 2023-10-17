@@ -1,0 +1,163 @@
+<?xml version="1" encoding="UTF-8"?>
+<GAO_CONFIG>
+    <Version>3.0</Version>
+    <Mode>Standard</Mode>
+    <AoCore index="0" sample_clock="clk" trig_type="0" storage_depth="16384" window_num="1" capture_amount="1024" trigger_pos="0" module_name="top" force_trigger_by_falling_edge="false">
+        <SignalList>
+            <Bus name="cmos_db[7:0]">
+                <Signal>cmos_db[7]</Signal>
+                <Signal>cmos_db[6]</Signal>
+                <Signal>cmos_db[5]</Signal>
+                <Signal>cmos_db[4]</Signal>
+                <Signal>cmos_db[3]</Signal>
+                <Signal>cmos_db[2]</Signal>
+                <Signal>cmos_db[1]</Signal>
+                <Signal>cmos_db[0]</Signal>
+            </Bus>
+            <Bus name="lcd_r[4:0]">
+                <Signal>lcd_r[4]</Signal>
+                <Signal>lcd_r[3]</Signal>
+                <Signal>lcd_r[2]</Signal>
+                <Signal>lcd_r[1]</Signal>
+                <Signal>lcd_r[0]</Signal>
+            </Bus>
+            <Bus name="lcd_g[5:0]">
+                <Signal>lcd_g[5]</Signal>
+                <Signal>lcd_g[4]</Signal>
+                <Signal>lcd_g[3]</Signal>
+                <Signal>lcd_g[2]</Signal>
+                <Signal>lcd_g[1]</Signal>
+                <Signal>lcd_g[0]</Signal>
+            </Bus>
+            <Bus name="lcd_b[4:0]">
+                <Signal>lcd_b[4]</Signal>
+                <Signal>lcd_b[3]</Signal>
+                <Signal>lcd_b[2]</Signal>
+                <Signal>lcd_b[1]</Signal>
+                <Signal>lcd_b[0]</Signal>
+            </Bus>
+            <Signal>cmos_scl</Signal>
+            <Signal>cmos_sda</Signal>
+            <Signal>sys_run</Signal>
+            <Signal>cam_run</Signal>
+            <Signal>rst_led</Signal>
+            <Signal>sys_led</Signal>
+            <Signal>lcd_dclk</Signal>
+            <Signal>lcd_hs</Signal>
+            <Signal>lcd_vs</Signal>
+            <Signal>lcd_de</Signal>
+            <Signal>video_clk</Signal>
+            <Bus name="vout_data[15:0]">
+                <Signal>vout_data[15]</Signal>
+                <Signal>vout_data[14]</Signal>
+                <Signal>vout_data[13]</Signal>
+                <Signal>vout_data[12]</Signal>
+                <Signal>vout_data[11]</Signal>
+                <Signal>vout_data[10]</Signal>
+                <Signal>vout_data[9]</Signal>
+                <Signal>vout_data[8]</Signal>
+                <Signal>vout_data[7]</Signal>
+                <Signal>vout_data[6]</Signal>
+                <Signal>vout_data[5]</Signal>
+                <Signal>vout_data[4]</Signal>
+                <Signal>vout_data[3]</Signal>
+                <Signal>vout_data[2]</Signal>
+                <Signal>vout_data[1]</Signal>
+                <Signal>vout_data[0]</Signal>
+            </Bus>
+            <Bus name="cmos_16bit_data[15:0]">
+                <Signal>cmos_16bit_data[15]</Signal>
+                <Signal>cmos_16bit_data[14]</Signal>
+                <Signal>cmos_16bit_data[13]</Signal>
+                <Signal>cmos_16bit_data[12]</Signal>
+                <Signal>cmos_16bit_data[11]</Signal>
+                <Signal>cmos_16bit_data[10]</Signal>
+                <Signal>cmos_16bit_data[9]</Signal>
+                <Signal>cmos_16bit_data[8]</Signal>
+                <Signal>cmos_16bit_data[7]</Signal>
+                <Signal>cmos_16bit_data[6]</Signal>
+                <Signal>cmos_16bit_data[5]</Signal>
+                <Signal>cmos_16bit_data[4]</Signal>
+                <Signal>cmos_16bit_data[3]</Signal>
+                <Signal>cmos_16bit_data[2]</Signal>
+                <Signal>cmos_16bit_data[1]</Signal>
+                <Signal>cmos_16bit_data[0]</Signal>
+            </Bus>
+            <Bus name="write_data[15:0]">
+                <Signal>write_data[15]</Signal>
+                <Signal>write_data[14]</Signal>
+                <Signal>write_data[13]</Signal>
+                <Signal>write_data[12]</Signal>
+                <Signal>write_data[11]</Signal>
+                <Signal>write_data[10]</Signal>
+                <Signal>write_data[9]</Signal>
+                <Signal>write_data[8]</Signal>
+                <Signal>write_data[7]</Signal>
+                <Signal>write_data[6]</Signal>
+                <Signal>write_data[5]</Signal>
+                <Signal>write_data[4]</Signal>
+                <Signal>write_data[3]</Signal>
+                <Signal>write_data[2]</Signal>
+                <Signal>write_data[1]</Signal>
+                <Signal>write_data[0]</Signal>
+            </Bus>
+            <Bus name="lut_index[9:0]">
+                <Signal>lut_index[9]</Signal>
+                <Signal>lut_index[8]</Signal>
+                <Signal>lut_index[7]</Signal>
+                <Signal>lut_index[6]</Signal>
+                <Signal>lut_index[5]</Signal>
+                <Signal>lut_index[4]</Signal>
+                <Signal>lut_index[3]</Signal>
+                <Signal>lut_index[2]</Signal>
+                <Signal>lut_index[1]</Signal>
+                <Signal>lut_index[0]</Signal>
+            </Bus>
+            <Signal>clk</Signal>
+        </SignalList>
+        <Triggers>
+            <Trigger index="0">
+                <SignalList>
+                    <Signal>clk</Signal>
+                </SignalList>
+            </Trigger>
+            <Trigger index="1"/>
+            <Trigger index="2"/>
+            <Trigger index="3"/>
+            <Trigger index="4"/>
+            <Trigger index="5"/>
+            <Trigger index="6"/>
+            <Trigger index="7"/>
+            <Trigger index="8"/>
+            <Trigger index="9"/>
+            <Trigger index="10"/>
+            <Trigger index="11"/>
+            <Trigger index="12"/>
+            <Trigger index="13"/>
+            <Trigger index="14"/>
+            <Trigger index="15"/>
+        </Triggers>
+        <MatchUnits>
+            <MatchUnit index="0" enabled="1" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="1" value0="X" value1="0" trigger="0"/>
+            <MatchUnit index="1" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="2" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="3" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="4" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="5" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="6" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="7" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="8" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="9" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="10" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="11" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="12" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="13" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="14" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+            <MatchUnit index="15" enabled="0" match_type="0" counter_enable="0" counter_width="2" counter="2" countinuous="0" func="0" value0="" value1=""/>
+        </MatchUnits>
+        <Expressions type="Static">
+            <Expression>M0</Expression>
+        </Expressions>
+    </AoCore>
+    <GAO_ID>1101000110100100</GAO_ID>
+</GAO_CONFIG>

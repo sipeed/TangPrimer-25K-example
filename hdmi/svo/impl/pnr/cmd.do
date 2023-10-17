@@ -1,0 +1,16 @@
+-d F:\TangPrimer-25K-example\hdmi\svo\impl\gwsynthesis\hdmi.vg
+-p GW5A-25A-MBGA121N-1
+-pn GW5A-LV25MG121NES
+-cst F:\TangPrimer-25K-example\hdmi\svo\src\hdmi.cst
+-cfg F:\TangPrimer-25K-example\hdmi\svo\impl\pnr\device.cfg
+-sdc F:\TangPrimer-25K-example\hdmi\svo\src\hdmi.sdc
+-bit
+-tr
+-ph
+-timing
+-ireg_not_in_iob
+-oreg_not_in_iob
+-ioreg_not_in_iob
+-cst_error
+-correct_hold 1
+-route_maxfan 23

@@ -1,0 +1,25 @@
+<?xml version="1" encoding="UTF-8"?>
+<!DOCTYPE gowin-fpga-project>
+<Project>
+    <Template>FPGA</Template>
+    <Version>5</Version>
+    <Device name="GW5A-25A" pn="GW5A-LV25MG121NES">gw5a25a-000</Device>
+    <FileList>
+        <File path="src/gowin_clkdiv/gowin_clkdiv.v" type="file.verilog" enable="1"/>
+        <File path="src/gowin_pll/gowin_pll.v" type="file.verilog" enable="1"/>
+        <File path="src/hdmi/svo_defines.vh" type="file.verilog" enable="1"/>
+        <File path="src/hdmi/svo_enc.v" type="file.verilog" enable="1"/>
+        <File path="src/hdmi/svo_openldi.v" type="file.verilog" enable="1"/>
+        <File path="src/hdmi/svo_pong.v" type="file.verilog" enable="1"/>
+        <File path="src/hdmi/svo_tcard.v" type="file.verilog" enable="1"/>
+        <File path="src/hdmi/svo_term.v" type="file.verilog" enable="1"/>
+        <File path="src/hdmi/svo_tmds.v" type="file.verilog" enable="1"/>
+        <File path="src/hdmi/svo_utils.v" type="file.verilog" enable="1"/>
+        <File path="src/hdmi/svo_vdma.v" type="file.verilog" enable="1"/>
+        <File path="src/svo_hdmi.v" type="file.verilog" enable="1"/>
+        <File path="src/top.v" type="file.verilog" enable="1"/>
+        <File path="src/hdmi.cst" type="file.cst" enable="1"/>
+        <File path="src/hdmi_rx.cst" type="file.cst" enable="0"/>
+        <File path="src/hdmi.sdc" type="file.sdc" enable="1"/>
+    </FileList>
+</Project>

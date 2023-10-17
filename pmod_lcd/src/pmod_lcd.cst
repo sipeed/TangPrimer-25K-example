@@ -1,0 +1,23 @@
+IO_LOC "lcd_cs" F5;
+IO_LOC "lcd_data" G7;
+IO_LOC "lcd_dc" H8;
+IO_LOC "lcd_clk" H5;
+IO_LOC "lcd_resetn" J5;
+IO_LOC "rst" H11;
+IO_LOC "clk" E2;
+
+//IO_LOC "lcd_cs" G5;
+//IO_LOC "lcd_data" G8;
+//IO_LOC "lcd_dc" H7;
+//IO_LOC "lcd_clk" J5;
+//IO_LOC "lcd_resetn" H5;
+//IO_LOC "rst" H11;
+//IO_LOC "clk" E2;
+
+IO_PORT "lcd_data" PULL_MODE=NONE DRIVE=8 BANK_VCCIO=3.3;
+IO_PORT "lcd_cs" PULL_MODE=NONE DRIVE=8 BANK_VCCIO=3.3;
+IO_PORT "lcd_dc" PULL_MODE=NONE DRIVE=8 BANK_VCCIO=3.3;
+IO_PORT "lcd_clk" PULL_MODE=NONE DRIVE=8 BANK_VCCIO=3.3;
+IO_PORT "lcd_resetn" PULL_MODE=NONE DRIVE=8 BANK_VCCIO=3.3;
+IO_PORT "rst" PULL_MODE=NONE DRIVE=OFF BANK_VCCIO=3.3;
+IO_PORT "clk" PULL_MODE=NONE DRIVE=OFF BANK_VCCIO=3.3;

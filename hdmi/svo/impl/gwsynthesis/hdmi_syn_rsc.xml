@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Module name="top" Register="24" Alu="23" Lut="2">
+    <SubModule name="Gowin_PLL_inst"/>
+    <SubModule name="Gowin_CLKDIV_inst"/>
+    <SubModule name="u_Reset_Sync" Register="4" Alu="4" Lut="2"/>
+    <SubModule name="svo_hdmi_inst_0" Register="2" Lut="1">
+        <SubModule name="svo_tcard" Register="144" Lut="315" Bsram="1"/>
+        <SubModule name="svo_enc" Register="269" Alu="6" Lut="229" Ssram="7"/>
+        <SubModule name="svo_tmds_0" Register="18" Alu="35" Lut="103" Ssram="3"/>
+        <SubModule name="svo_tmds_1" Register="18" Alu="35" Lut="96" Ssram="3"/>
+        <SubModule name="svo_tmds_2" Register="18" Alu="35" Lut="96" Ssram="3"/>
+    </SubModule>
+    <SubModule name="svo_hdmi_inst_1">
+        <SubModule name="svo_tcard" Register="144" Lut="313" Bsram="1"/>
+        <SubModule name="svo_enc" Register="269" Alu="6" Lut="228" Ssram="7"/>
+        <SubModule name="svo_tmds_0" Register="18" Alu="35" Lut="102" Ssram="3"/>
+        <SubModule name="svo_tmds_1" Register="18" Alu="35" Lut="102" Ssram="3"/>
+        <SubModule name="svo_tmds_2" Register="18" Alu="35" Lut="98" Ssram="3"/>
+    </SubModule>
+    <SubModule name="svo_hdmi_inst_2" Register="2">
+        <SubModule name="svo_tcard" Register="145" Lut="315" Bsram="1"/>
+        <SubModule name="svo_enc" Register="269" Alu="6" Lut="232" Ssram="7"/>
+        <SubModule name="svo_tmds_0" Register="18" Alu="35" Lut="104" Ssram="3"/>
+        <SubModule name="svo_tmds_1" Register="18" Alu="35" Lut="96" Ssram="3"/>
+        <SubModule name="svo_tmds_2" Register="19" Alu="35" Lut="97" Ssram="3"/>
+    </SubModule>
+</Module>

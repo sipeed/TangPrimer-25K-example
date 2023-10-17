@@ -1,0 +1,69 @@
+{
+ "Device" : "GW5A-25A",
+ "Files" : [
+  {
+   "Path" : "F:/TangPrimer-25K-example/hdmi/svo/src/gowin_pll/gowin_pll.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "F:/TangPrimer-25K-example/hdmi/svo/src/hdmi/svo_defines.vh",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "F:/TangPrimer-25K-example/hdmi/svo/src/hdmi/svo_enc.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "F:/TangPrimer-25K-example/hdmi/svo/src/hdmi/svo_openldi.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "F:/TangPrimer-25K-example/hdmi/svo/src/hdmi/svo_tcard.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "F:/TangPrimer-25K-example/hdmi/svo/src/hdmi/svo_term.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "F:/TangPrimer-25K-example/hdmi/svo/src/hdmi/svo_tmds.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "F:/TangPrimer-25K-example/hdmi/svo/src/hdmi/svo_utils.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "F:/TangPrimer-25K-example/hdmi/svo/src/hdmi/svo_vdma.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "F:/TangPrimer-25K-example/hdmi/svo/src/svo_hdmi.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "F:/TangPrimer-25K-example/hdmi/svo/src/top.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "F:/TangPrimer-25K-example/hdmi/svo/src/gowin_clkdiv/gowin_clkdiv.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "F:/TangPrimer-25K-example/hdmi/svo/src/hdmi/svo_pong.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "F:/TangPrimer-25K-example/hdmi/svo/src/dvi_tx/dvi_tx.v",
+   "Type" : "verilog"
+  }
+ ],
+ "IncludePath" : [
+
+ ],
+ "LoopLimit" : 2000,
+ "ResultFile" : "F:/TangPrimer-25K-example/hdmi/svo/src/gowin_pll/impl/temp/rtl_parser.result",
+ "Top" : "top",
+ "VerilogStd" : "verilog_2001",
+ "VhdlStd" : "vhdl_93"
+}

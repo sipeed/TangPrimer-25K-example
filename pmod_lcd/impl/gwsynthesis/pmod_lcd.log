@@ -1,0 +1,33 @@
+GowinSynthesis start
+Running parser ...
+Analyzing Verilog file 'F:\TangPrimer-25K-example\pmod_lcd\src\top.v'
+Undeclared symbol 'resetn', assumed default net type 'wire'("F:\TangPrimer-25K-example\pmod_lcd\src\top.v":19)
+WARN  (EX3012) : Empty statement in sequential block("F:\TangPrimer-25K-example\pmod_lcd\src\top.v":257)
+Compiling module 'lcd114_test'("F:\TangPrimer-25K-example\pmod_lcd\src\top.v":3)
+WARN  (EX3791) : Expression size 6 truncated to fit in target size 5("F:\TangPrimer-25K-example\pmod_lcd\src\top.v":218)
+WARN  (EX3791) : Expression size 8 truncated to fit in target size 7("F:\TangPrimer-25K-example\pmod_lcd\src\top.v":246)
+WARN  (EX3791) : Expression size 6 truncated to fit in target size 5("F:\TangPrimer-25K-example\pmod_lcd\src\top.v":250)
+WARN  (EX3791) : Expression size 17 truncated to fit in target size 16("F:\TangPrimer-25K-example\pmod_lcd\src\top.v":276)
+WARN  (EX3791) : Expression size 6 truncated to fit in target size 5("F:\TangPrimer-25K-example\pmod_lcd\src\top.v":280)
+NOTE  (EX0101) : Current top module is "lcd114_test"
+WARN  (EX0211) : The output port "ser_tx" of module "lcd114_test" has no driver, assigning undriven bits to Z, simulation mismatch possible("F:\TangPrimer-25K-example\pmod_lcd\src\top.v":9)
+[5%] Running netlist conversion ...
+WARN  (CV0016) : Input ser_rx is unused("F:\TangPrimer-25K-example\pmod_lcd\src\top.v":10)
+Running device independent optimization ...
+[10%] Optimizing Phase 0 completed
+[15%] Optimizing Phase 1 completed
+[25%] Optimizing Phase 2 completed
+Running inference ...
+[30%] Inferring Phase 0 completed
+[40%] Inferring Phase 1 completed
+[50%] Inferring Phase 2 completed
+[55%] Inferring Phase 3 completed
+Running technical mapping ...
+[60%] Tech-Mapping Phase 0 completed
+[65%] Tech-Mapping Phase 1 completed
+[75%] Tech-Mapping Phase 2 completed
+[80%] Tech-Mapping Phase 3 completed
+[90%] Tech-Mapping Phase 4 completed
+[95%] Generate netlist file "F:\TangPrimer-25K-example\pmod_lcd\impl\gwsynthesis\pmod_lcd.vg" completed
+[100%] Generate report file "F:\TangPrimer-25K-example\pmod_lcd\impl\gwsynthesis\pmod_lcd_syn.rpt.html" completed
+GowinSynthesis finish
