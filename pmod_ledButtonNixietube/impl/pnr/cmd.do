@@ -1,0 +1,12 @@
+-d F:\work\BaiduNetdiskWorkspace\verilog_Code\pmod_ledButtonNixietube\impl\gwsynthesis\pmod_ledButtonNixietube.vg
+-p GW5A-25A-MBGA121N-1
+-pn GW5A-LV25MG121NES
+-cst F:\work\BaiduNetdiskWorkspace\verilog_Code\pmod_ledButtonNixietube\src\pmod_ledButtonNixietube.cst
+-cfg F:\work\BaiduNetdiskWorkspace\verilog_Code\pmod_ledButtonNixietube\impl\pnr\device.cfg
+-bit
+-tr
+-ph
+-timing
+-cst_error
+-correct_hold 1
+-route_maxfan 23
