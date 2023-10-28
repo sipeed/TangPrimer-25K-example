@@ -1,5 +1,6 @@
-/*按键去抖模块
-每次按键按下将输出一个脉冲波形，脉冲长度取决于按下时间*/
+/*Debouncing Module for Buttons
+Each button press generates a pulse waveform, 
+and the pulse duration depends on the press time*/
 module driver_Button #(
     parameter   P_DEALY_PERIOD = 'd5_000_000
 )(
