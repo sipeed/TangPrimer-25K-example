@@ -1,0 +1,29 @@
+{
+ "Device" : "GW5A-25A",
+ "Files" : [
+  {
+   "Path" : "F:/work/BaiduNetdiskWorkspace/verilog_Code/pmod_ledButtonNixietube/src/driver_Button.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "F:/work/BaiduNetdiskWorkspace/verilog_Code/pmod_ledButtonNixietube/src/driver_Led.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "F:/work/BaiduNetdiskWorkspace/verilog_Code/pmod_ledButtonNixietube/src/driver_NixieTube.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "F:/work/BaiduNetdiskWorkspace/verilog_Code/pmod_ledButtonNixietube/src/top_demo.v",
+   "Type" : "verilog"
+  }
+ ],
+ "IncludePath" : [
+
+ ],
+ "LoopLimit" : 2000,
+ "ResultFile" : "F:/work/BaiduNetdiskWorkspace/verilog_Code/pmod_ledButtonNixietube/impl/temp/rtl_parser.result",
+ "Top" : "top_demo",
+ "VerilogStd" : "verilog_2001",
+ "VhdlStd" : "vhdl_93"
+}
