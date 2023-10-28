@@ -10,7 +10,7 @@
 
 On the three PMOD interfaces, plug the key switch module, LED module, and digital tube module in order.
 
-+ Open (pmod_ledButtonNixietube.gprj) using the GoWin SDK
++ Open (pmod_ledButtonNixietube.gprj) using the GoWin SDK(ver > 1.99)
 + Execute the Synthesize and  Place & Route，then write the bitstream to Tang Primer 25K by Program Device.It is also possible to directly write to a pregenerated bitstream file using Program Device（pmod_ledButtonNixietube\impl\pnr\pmod_ledButtonNixietube.fs）
 + The upper right corner  of Tang Primer 25K is the reset button, which is external pull-up. Therefore, if it is used as the reset button, the internal weak pull-down is needed when the pin constraint is used
 + Nixie Tube and buttons
