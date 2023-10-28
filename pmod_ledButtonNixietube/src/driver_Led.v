@@ -1,4 +1,4 @@
-/*LED流水灯以及拨码开关真值显示模块*/
+/*LED Shift Register and DIP Switch Truth Table Display Module*/
 module driver_Led(
     input           i_clk               ,
     input           i_rst               ,
@@ -7,10 +7,13 @@ module driver_Led(
 );
 /***************reg*******************/
 reg         [27:0]  r_cnt       = 0             ;
-reg         [7:0]   r_streamLed = 8'b11111110   ;//输出流水灯寄存器
-reg         [7:0]   w_tabelLed  = 8'b11111111   ;//输出拨码开关真值表寄存器
+reg         [7:0]   r_streamLed = 8'b11111110   ;//Output shift register for LED shift pattern
+reg         [7:0]   w_tabelLed  = 8'b11111111   ;//Output DIP switch truth table register
 /***************assign****************/
-assign      o_led = i_switch[3] ? w_tabelLed : r_streamLed;//当拨码开关的最高位(最左边)为高时，显示流水灯，否则显示低三位(右三个)拨码开关的真值表
+/*When the most significant bit (leftmost) of the DIP switch is set high,
+display the shift register; otherwise,
+display the truth table of the three least significant bits (rightmost) of the DIP switch.*/
+assign      o_led = i_switch[3] ? w_tabelLed : r_streamLed;
 /***************always****************/
 //——————<w_tabelLed>—————————————//
 always @(posedge i_clk or posedge i_rst)
