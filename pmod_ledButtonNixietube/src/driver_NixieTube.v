@@ -1,6 +1,6 @@
-/*动态驱动二位数码管模块*/
+/*Dynamic Drive for Two-Digit Seven-Segment Display Module*/
 module driver_NixieTube #(
-    parameter       P_CNT       = 'd300_000 //动态驱动数码管的扫描周期
+    parameter       P_CNT       = 'd300_000 //Scanning Period for Dynamic Drive of the Seven-Segment Display
 )(
     input           i_clk               ,
     input           i_rst               ,
@@ -19,7 +19,7 @@ localparam          P_6 = 7'b0000100    ;
 localparam          P_7 = 7'b1110001    ;
 localparam          P_8 = 7'b0000000    ;
 localparam          P_9 = 7'b0100000    ;
-localparam          P_X = 7'b1111111    ;  //数码管显示0-9以及不显示的真值表
+localparam          P_X = 7'b1111111    ;  //Truth Table for Displaying 0-9 on the Seven-Segment Display and for Blank Display
 /***************reg*******************/
 reg        [23:0]   r_cnt               = 0;
 reg         [3:0]   r_add               = 0;
@@ -35,8 +35,10 @@ assign      o_sel       = ro_sel                ;
 assign      w_posedge0  = r_add[0] & !r_add1d[0];
 assign      w_posedge1  = r_add[1] & !r_add1d[1];
 assign      w_posedge2  = r_add[2] & !r_add1d[2];
-assign      w_posedge3  = r_add[3] & !r_add1d[3];   //检测4个按键模块发来的上升沿
-assign      o_nixieTube = ro_sel ? r_nixieTubeTens : r_nixieTubeOnes;  //当o_sel为高电平时，表示十位的数码管有效；反之表示个位的数码管有效
+assign      w_posedge3  = r_add[3] & !r_add1d[3];   //Detecting Rising Edges from 4 Button Modules
+assign      o_nixieTube = ro_sel ? r_nixieTubeTens : r_nixieTubeOnes;
+/*When o_sel is high, it indicates the tens digit of the seven-segment display is active; 
+conversely, it indicates the ones digit of the seven-segment display is active*/
 /***************always****************/
 //——————<r_cnt>—————————————//
 always  @(posedge i_clk or posedge i_rst)
