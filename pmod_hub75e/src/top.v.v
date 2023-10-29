@@ -7,9 +7,9 @@
 `define ROW_CNT      16'd32  //32x2
 `define ROW_BITS      6'd5 
 
-`define COL_CNT      16'd64
-`define COL_BITS      6'd6 
-`define COL_CNT_FULL 16'd64 
+`define COL_CNT      16'd64   //64
+`define COL_BITS      6'd6     //6
+`define COL_CNT_FULL 16'd64   
 `define COL_CNT_REST 16'd0   //COLS补齐到次幂的数量
 //ram_addr 存储按次幂对齐
 
@@ -124,11 +124,11 @@ module TOP (
    wire [4:0] threshold = frame_count[`PWM_BITS+`ROW_BITS-1:`ROW_BITS];
    
    assign hub_R1 = ((ram_rdata1[14:10]) > threshold) ;
-   assign hub_G1 = ((ram_rdata1[ 9: 5]) > threshold) ;
-   assign hub_B1 = ((ram_rdata1[ 4: 0]) > threshold) ;
+   assign hub_G1 = ((ram_rdata1[ 4: 0]) > threshold) ;
+   assign hub_B1 = ((ram_rdata1[ 9: 5]) > threshold) ;
    assign hub_R2 = ((ram_rdata2[14:10]) > threshold) ;
-   assign hub_G2 = ((ram_rdata2[ 9: 5]) > threshold) ;
-   assign hub_B2 = ((ram_rdata2[ 4: 0]) > threshold) ;
+   assign hub_G2 = ((ram_rdata2[ 4: 0]) > threshold) ;
+   assign hub_B2 = ((ram_rdata2[ 9: 5]) > threshold) ;
 
 
 endmodule // hub75e

@@ -15,4 +15,4 @@
 -width 32
 -read_mode bypass
 -reset_mode sync
--init_file /home/pc/work/Tang/25K/HUB75E/HUB75E/src/logoS.hex
+-init_file /home/pc/work/Tang/25K/HUB75E/HUB75E/src/logoT.hex
