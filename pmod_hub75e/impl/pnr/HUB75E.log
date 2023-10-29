@@ -1,0 +1,26 @@
+Reading netlist file: "/home/pc/work/Tang/25K/HUB75E/HUB75E/impl/gwsynthesis/HUB75E.vg"
+Parsing netlist file "/home/pc/work/Tang/25K/HUB75E/HUB75E/impl/gwsynthesis/HUB75E.vg" completed
+Processing netlist completed
+Reading constraint file: "/home/pc/work/Tang/25K/HUB75E/HUB75E/src/HUB75E.cst"
+Physical Constraint parsed completed
+Running placement......
+[10%] Placement Phase 0 completed
+[20%] Placement Phase 1 completed
+[30%] Placement Phase 2 completed
+[50%] Placement Phase 3 completed
+Running routing......
+[60%] Routing Phase 0 completed
+[70%] Routing Phase 1 completed
+[80%] Routing Phase 2 completed
+[90%] Routing Phase 3 completed
+Running timing analysis......
+[95%] Timing analysis completed
+Placement and routing completed
+Bitstream generation in progress......
+Bitstream generation completed
+Generate file "/home/pc/work/Tang/25K/HUB75E/HUB75E/impl/pnr/HUB75E.pin.html" completed
+Generate file "/home/pc/work/Tang/25K/HUB75E/HUB75E/impl/pnr/HUB75E.rpt.html" completed
+Generate file "/home/pc/work/Tang/25K/HUB75E/HUB75E/impl/pnr/HUB75E.rpt.txt" completed
+Generate file "/home/pc/work/Tang/25K/HUB75E/HUB75E/impl/pnr/HUB75E.tr.html" completed
+Sun Oct 29 21:03:14 2023
+

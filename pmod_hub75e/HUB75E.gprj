@@ -1,0 +1,12 @@
+<?xml version="1" encoding="UTF-8"?>
+<!DOCTYPE gowin-fpga-project>
+<Project>
+    <Template>FPGA</Template>
+    <Version>5</Version>
+    <Device name="GW5A-25A" pn="GW5A-LV25MG121NES">gw5a25a-000</Device>
+    <FileList>
+        <File path="src/gowin_prom/gowin_prom.v" type="file.verilog" enable="1"/>
+        <File path="src/top.v.v" type="file.verilog" enable="1"/>
+        <File path="src/HUB75E.cst" type="file.cst" enable="1"/>
+    </FileList>
+</Project>

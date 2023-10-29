@@ -1,0 +1,12 @@
+-d /home/pc/work/Tang/25K/HUB75E/HUB75E/impl/gwsynthesis/HUB75E.vg
+-p GW5A-25A-MBGA121N-1
+-pn GW5A-LV25MG121NES
+-cst /home/pc/work/Tang/25K/HUB75E/HUB75E/src/HUB75E.cst
+-cfg /home/pc/work/Tang/25K/HUB75E/HUB75E/impl/pnr/device.cfg
+-bit
+-tr
+-ph
+-timing
+-cst_error
+-correct_hold 1
+-route_maxfan 23

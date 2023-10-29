@@ -1,0 +1,28 @@
+[
+ {
+  "InstFile" : "/home/pc/work/Tang/25K/HUB75E/HUB75E/src/top.v.v",
+  "InstLine" : 34,
+  "InstName" : "TOP",
+  "ModuleFile" : "/home/pc/work/Tang/25K/HUB75E/HUB75E/src/top.v.v",
+  "ModuleLine" : 34,
+  "ModuleName" : "TOP",
+  "SubInsts" : [
+   {
+    "InstFile" : "/home/pc/work/Tang/25K/HUB75E/HUB75E/src/top.v.v",
+    "InstLine" : 98,
+    "InstName" : "logo_rom",
+    "ModuleFile" : "/home/pc/work/Tang/25K/HUB75E/HUB75E/src/gowin_prom/gowin_prom.v",
+    "ModuleLine" : 10,
+    "ModuleName" : "Gowin_pROM"
+   },
+   {
+    "InstFile" : "/home/pc/work/Tang/25K/HUB75E/HUB75E/src/top.v.v",
+    "InstLine" : 110,
+    "InstName" : "hubif",
+    "ModuleFile" : "/home/pc/work/Tang/25K/HUB75E/HUB75E/src/top.v.v",
+    "ModuleLine" : 141,
+    "ModuleName" : "hub75e_if"
+   }
+  ]
+ }
+]
