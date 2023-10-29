@@ -1,8 +1,11 @@
-Connect PMOD_HUB75E to the 2 PMOD close to USB-C.
-Press S1 Key after burn flash.
+Connect PMOD_HUB75E to the 2 PMOD close to USB-C.   
+Press S1 Key after burn flash.   
 
-hex file generate by python code:
-```
+![pic1](pic1.jpg)
+![pic2](pic2.jpg)
+
+hex file generate by python code:   
+```   
 from PIL import Image
 import numpy as np
 im = Image.open("S.bmp")
