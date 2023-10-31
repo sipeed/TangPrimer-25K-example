@@ -20,8 +20,8 @@ On the three PMOD interfaces, plug the key switch module, LED module, and digita
   + Press the  third button to add 4 to the digital tube;
   + Press the fourth button to add 8 to the digital tube;
 + LED array and dip switch
-  + The dip switch is represented in binary mode and mapped to the LED indicator. If the binary representation of the dial switch is 3, the third LED lights up.
-  + The highest bit of the dial switch is HIGH, then the LED flow lamp.
+  + The dip switch is represented in binary mode and mapped to the LED indicator. If the binary representation of the dip switch is 3, the third LED lights up.
+  + The highest bit of the dip switch is HIGH, then the LED flow lamp.
 ### Tips
 + If you need the replication project, right-click Configuration in Synthesize and set the top-level module.
 + ![](OpenConfigure.png)
