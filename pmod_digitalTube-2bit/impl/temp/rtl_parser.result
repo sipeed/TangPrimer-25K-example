@@ -1,0 +1,60 @@
+[
+ {
+  "InstFile" : "F:/work/BaiduNetdiskWorkspace/verilog_Code/pmod_digitalTube-2bit/src/top_demo.v",
+  "InstLine" : 1,
+  "InstName" : "top_demo",
+  "ModuleFile" : "F:/work/BaiduNetdiskWorkspace/verilog_Code/pmod_digitalTube-2bit/src/top_demo.v",
+  "ModuleLine" : 1,
+  "ModuleName" : "top_demo",
+  "SubInsts" : [
+   {
+    "InstFile" : "F:/work/BaiduNetdiskWorkspace/verilog_Code/pmod_digitalTube-2bit/src/top_demo.v",
+    "InstLine" : 13,
+    "InstName" : "button0",
+    "ModuleFile" : "F:/work/BaiduNetdiskWorkspace/verilog_Code/pmod_digitalTube-2bit/src/driver_Button.v",
+    "ModuleLine" : 4,
+    "ModuleName" : "driver_Button"
+   },
+   {
+    "InstFile" : "F:/work/BaiduNetdiskWorkspace/verilog_Code/pmod_digitalTube-2bit/src/top_demo.v",
+    "InstLine" : 19,
+    "InstName" : "button1",
+    "ModuleFile" : "F:/work/BaiduNetdiskWorkspace/verilog_Code/pmod_digitalTube-2bit/src/driver_Button.v",
+    "ModuleLine" : 4,
+    "ModuleName" : "driver_Button"
+   },
+   {
+    "InstFile" : "F:/work/BaiduNetdiskWorkspace/verilog_Code/pmod_digitalTube-2bit/src/top_demo.v",
+    "InstLine" : 25,
+    "InstName" : "button2",
+    "ModuleFile" : "F:/work/BaiduNetdiskWorkspace/verilog_Code/pmod_digitalTube-2bit/src/driver_Button.v",
+    "ModuleLine" : 4,
+    "ModuleName" : "driver_Button"
+   },
+   {
+    "InstFile" : "F:/work/BaiduNetdiskWorkspace/verilog_Code/pmod_digitalTube-2bit/src/top_demo.v",
+    "InstLine" : 31,
+    "InstName" : "button3",
+    "ModuleFile" : "F:/work/BaiduNetdiskWorkspace/verilog_Code/pmod_digitalTube-2bit/src/driver_Button.v",
+    "ModuleLine" : 4,
+    "ModuleName" : "driver_Button"
+   },
+   {
+    "InstFile" : "F:/work/BaiduNetdiskWorkspace/verilog_Code/pmod_digitalTube-2bit/src/top_demo.v",
+    "InstLine" : 37,
+    "InstName" : "digitaltube",
+    "ModuleFile" : "F:/work/BaiduNetdiskWorkspace/verilog_Code/pmod_digitalTube-2bit/src/driver_DigitalTube.v",
+    "ModuleLine" : 2,
+    "ModuleName" : "driver_DigitalTube"
+   },
+   {
+    "InstFile" : "F:/work/BaiduNetdiskWorkspace/verilog_Code/pmod_digitalTube-2bit/src/top_demo.v",
+    "InstLine" : 44,
+    "InstName" : "led",
+    "ModuleFile" : "F:/work/BaiduNetdiskWorkspace/verilog_Code/pmod_digitalTube-2bit/src/driver_Led.v",
+    "ModuleLine" : 2,
+    "ModuleName" : "driver_Led"
+   }
+  ]
+ }
+]
