@@ -25,7 +25,7 @@ On the three PMOD interfaces, plug the key switch module, LED module, and digita
 ### Tips
 + If you need the replication project, right-click Configuration in Synthesize and set the top-level module.
 + ![](OpenConfigure.png)
-+ ![](SetIOMultiplexing.png)
++ ![](SetTopModules.png)
 
 + I/O multiplexing needs to be set with the Dual-Purpose Pin of Place & Route in the interface.
 + ![](SetIOMultiplexing.png)
