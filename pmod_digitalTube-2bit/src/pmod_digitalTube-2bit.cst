@@ -1,0 +1,61 @@
+//Copyright (C)2014-2023 Gowin Semiconductor Corporation.
+//All rights reserved. 
+//File Title: Physical Constraints file
+//GOWIN Version: V1.9.9 Beta-5
+//Part Number: GW5A-LV25MG121NES
+//Device: GW5A-25
+//Device Version: A
+//Created Time: Tue 10 31 21:08:39 2023
+
+IO_LOC "o_sel" K5;
+IO_PORT "o_sel" PULL_MODE=NONE DRIVE=8 BANK_VCCIO=3.3;
+IO_LOC "o_digitalTube[6]" L11;
+IO_PORT "o_digitalTube[6]" PULL_MODE=NONE DRIVE=8 BANK_VCCIO=3.3;
+IO_LOC "o_digitalTube[5]" K11;
+IO_PORT "o_digitalTube[5]" PULL_MODE=NONE DRIVE=8 BANK_VCCIO=3.3;
+IO_LOC "o_digitalTube[4]" L5;
+IO_PORT "o_digitalTube[4]" PULL_MODE=NONE DRIVE=8 BANK_VCCIO=3.3;
+IO_LOC "o_digitalTube[3]" E10;
+IO_PORT "o_digitalTube[3]" PULL_MODE=NONE DRIVE=8 BANK_VCCIO=3.3;
+IO_LOC "o_digitalTube[2]" E11;
+IO_PORT "o_digitalTube[2]" PULL_MODE=NONE DRIVE=8 BANK_VCCIO=3.3;
+IO_LOC "o_digitalTube[1]" A11;
+IO_PORT "o_digitalTube[1]" PULL_MODE=NONE DRIVE=8 BANK_VCCIO=3.3;
+IO_LOC "o_digitalTube[0]" A10;
+IO_PORT "o_digitalTube[0]" PULL_MODE=NONE DRIVE=8 BANK_VCCIO=3.3;
+IO_LOC "o_led[7]" C10;
+IO_PORT "o_led[7]" PULL_MODE=NONE DRIVE=8 BANK_VCCIO=3.3;
+IO_LOC "o_led[6]" C11;
+IO_PORT "o_led[6]" PULL_MODE=NONE DRIVE=8 BANK_VCCIO=3.3;
+IO_LOC "o_led[5]" B10;
+IO_PORT "o_led[5]" PULL_MODE=NONE DRIVE=8 BANK_VCCIO=3.3;
+IO_LOC "o_led[4]" B11;
+IO_PORT "o_led[4]" PULL_MODE=NONE DRIVE=8 BANK_VCCIO=3.3;
+IO_LOC "o_led[3]" D10;
+IO_PORT "o_led[3]" PULL_MODE=NONE DRIVE=8 BANK_VCCIO=3.3;
+IO_LOC "o_led[2]" D11;
+IO_PORT "o_led[2]" PULL_MODE=NONE DRIVE=8 BANK_VCCIO=3.3;
+IO_LOC "o_led[1]" G10;
+IO_PORT "o_led[1]" PULL_MODE=NONE DRIVE=8 BANK_VCCIO=3.3;
+IO_LOC "o_led[0]" G11;
+IO_PORT "o_led[0]" PULL_MODE=NONE DRIVE=8 BANK_VCCIO=3.3;
+IO_LOC "i_switch[3]" H5;
+IO_PORT "i_switch[3]" PULL_MODE=NONE DRIVE=OFF BANK_VCCIO=3.3;
+IO_LOC "i_switch[2]" H8;
+IO_PORT "i_switch[2]" PULL_MODE=NONE DRIVE=OFF BANK_VCCIO=3.3;
+IO_LOC "i_switch[1]" G8;
+IO_PORT "i_switch[1]" PULL_MODE=NONE DRIVE=OFF BANK_VCCIO=3.3;
+IO_LOC "i_switch[0]" G5;
+IO_PORT "i_switch[0]" PULL_MODE=NONE DRIVE=OFF BANK_VCCIO=3.3;
+IO_LOC "i_button[3]" J5;
+IO_PORT "i_button[3]" PULL_MODE=NONE DRIVE=OFF BANK_VCCIO=3.3;
+IO_LOC "i_button[2]" H7;
+IO_PORT "i_button[2]" PULL_MODE=NONE DRIVE=OFF BANK_VCCIO=3.3;
+IO_LOC "i_button[1]" G7;
+IO_PORT "i_button[1]" PULL_MODE=NONE DRIVE=OFF BANK_VCCIO=3.3;
+IO_LOC "i_button[0]" F5;
+IO_PORT "i_button[0]" PULL_MODE=NONE DRIVE=OFF BANK_VCCIO=3.3;
+IO_LOC "i_rst" H11;
+IO_PORT "i_rst" PULL_MODE=DOWN DRIVE=OFF BANK_VCCIO=3.3;
+IO_LOC "i_clk" E2;
+IO_PORT "i_clk" PULL_MODE=NONE DRIVE=OFF BANK_VCCIO=3.3;

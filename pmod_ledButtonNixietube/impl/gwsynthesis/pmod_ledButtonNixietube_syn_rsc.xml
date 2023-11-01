@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<Module name="top_demo">
-    <SubModule name="button0" Register="25" Lut="51"/>
-    <SubModule name="button1" Register="25" Lut="51"/>
-    <SubModule name="button2" Register="25" Lut="49"/>
-    <SubModule name="button3" Register="25" Lut="51"/>
-    <SubModule name="nixietube" Register="61" Alu="5" Lut="90"/>
-    <SubModule name="led" Register="43" Lut="72"/>
-</Module>

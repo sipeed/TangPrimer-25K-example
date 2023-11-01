@@ -1,0 +1,12 @@
+-d F:\work\BaiduNetdiskWorkspace\verilog_Code\pmod_digitalTube-2bit\impl\gwsynthesis\pmod_digitalTube-2bit.vg
+-p GW5A-25A-MBGA121N-1
+-pn GW5A-LV25MG121NES
+-cst F:\work\BaiduNetdiskWorkspace\verilog_Code\pmod_digitalTube-2bit\src\pmod_digitalTube-2bit.cst
+-cfg F:\work\BaiduNetdiskWorkspace\verilog_Code\pmod_digitalTube-2bit\impl\pnr\device.cfg
+-bit
+-tr
+-ph
+-timing
+-cst_error
+-correct_hold 1
+-route_maxfan 23
