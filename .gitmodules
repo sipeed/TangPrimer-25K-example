@@ -4,3 +4,6 @@
 [submodule "nestang_primer-25K"]
 	path = nestang_primer-25K
 	url = https://github.com/kyonmiriam/nestang_primer-25K
+[submodule "LicheeTang25k_VexRV_micro"]
+	path = LicheeTang25k_VexRV_micro
+	url = https://github.com/kyonmiriam/LicheeTang25k_VexRV_micro
