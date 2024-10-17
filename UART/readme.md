@@ -2,7 +2,7 @@
 
 # Simple_UART - a UART demo for Sipeed Tang Primer 25K FPGA Boards
 
-This project is a demo to test the UART communication between onboard debugger & FGPA, it base on Sipeed [Tang Primer 25K](https://wiki.sipeed.com/hardware/en/tang/tang-primer-25k/primer-25k.html), it also integrated a GAO(Internal Logic Snalyzer) to facilitate users to observe how the UART works more directly.
+This project is a demo to test the UART communication between onboard debugger & FPGA, it base on Sipeed [Tang Primer 25K](https://wiki.sipeed.com/hardware/en/tang/tang-primer-25k/primer-25k.html), it also integrated a GAO(Internal Logic Snalyzer) to facilitate users to observe how the UART works more directly.
 
 <img src="./docs/images/UART_GAO.png" width=400> <img src="./docs/images/UART_OUTPUT.png" width=400>
 
