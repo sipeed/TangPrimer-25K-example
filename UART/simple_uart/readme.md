@@ -17,14 +17,14 @@ This demo now is only test on Sipeed [Tang Primer 25K](https://wiki.sipeed.com/h
 ## Directory structure
 
 ```
-| -- docs                      --> manuals and documentation
-|    |`-- images               --> picture resources  
+| -- docs                    --> manuals and documentation
+|    |`-- images             --> picture resources  
 | -- simple_uart 
-|    |	`-- uart_Hello.fs.7z   --> prbuild bitstream(zipped)                       
-|    |	`-- uart.gprj          --> demo project
-|    |	`-- uart.gprj.user     --> project conf.
-|    |-- src                   --> project sources 
-|    |-- impl                  --> project config & implementation 
+|    |	`-- uart.fs.7z      --> prbuild bitstream(zipped)                       
+|    |	`-- uart.gprj		 --> demo project
+|    |	`-- uart.gprj.user	 --> project conf.
+|    |-- src                 --> project sources 
+|    |-- impl                --> project config & implementation 
 
 ```
 
