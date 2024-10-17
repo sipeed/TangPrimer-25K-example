@@ -1,0 +1,44 @@
+<?xml version="1" encoding="UTF-8"?>
+<GAO_CONFIG>
+    <Version>3.0</Version>
+    <Mode>Lite</Mode>
+    <AoCore_Lite index="0" sample_clock="clk" trig_type="0" capture_amount="1024" implemention="0" input_register_enabled="0" capture_init_data_enabled="0" module_name="uart_test">
+        <SignalList>
+            <Signal capture_enable="true">uart_rx_inst/rx_data_valid</Signal>
+            <Signal capture_enable="true">uart_rx_inst/rx_data_ready</Signal>
+            <Signal capture_enable="true">uart_tx_inst/tx_data_valid</Signal>
+            <Signal capture_enable="true">uart_tx_inst/tx_data_ready</Signal>
+            <Bus capture_enable="true" name="uart_rx_inst/rx_data[7:0]">
+                <Signal>uart_rx_inst/rx_data[7]</Signal>
+                <Signal>uart_rx_inst/rx_data[6]</Signal>
+                <Signal>uart_rx_inst/rx_data[5]</Signal>
+                <Signal>uart_rx_inst/rx_data[4]</Signal>
+                <Signal>uart_rx_inst/rx_data[3]</Signal>
+                <Signal>uart_rx_inst/rx_data[2]</Signal>
+                <Signal>uart_rx_inst/rx_data[1]</Signal>
+                <Signal>uart_rx_inst/rx_data[0]</Signal>
+            </Bus>
+            <Bus capture_enable="true" name="uart_tx_inst/tx_data[7:0]">
+                <Signal>uart_tx_inst/tx_data[7]</Signal>
+                <Signal>uart_tx_inst/tx_data[6]</Signal>
+                <Signal>uart_tx_inst/tx_data[5]</Signal>
+                <Signal>uart_tx_inst/tx_data[4]</Signal>
+                <Signal>uart_tx_inst/tx_data[3]</Signal>
+                <Signal>uart_tx_inst/tx_data[2]</Signal>
+                <Signal>uart_tx_inst/tx_data[1]</Signal>
+                <Signal>uart_tx_inst/tx_data[0]</Signal>
+            </Bus>
+            <Bus capture_enable="true" name="tx_data[7:0]">
+                <Signal>tx_data[7]</Signal>
+                <Signal>tx_data[6]</Signal>
+                <Signal>tx_data[5]</Signal>
+                <Signal>tx_data[4]</Signal>
+                <Signal>tx_data[3]</Signal>
+                <Signal>tx_data[2]</Signal>
+                <Signal>tx_data[1]</Signal>
+                <Signal>tx_data[0]</Signal>
+            </Bus>
+        </SignalList>
+    </AoCore_Lite>
+    <GAO_ID>0110000100110101</GAO_ID>
+</GAO_CONFIG>

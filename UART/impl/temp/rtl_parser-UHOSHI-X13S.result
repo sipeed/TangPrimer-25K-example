@@ -1,0 +1,28 @@
+[
+ {
+  "InstFile" : "C:/Users/Think/OneDrive/Documents/GitHub/TangPrimer-25K-example/UART/src/uart_top.v",
+  "InstLine" : 2,
+  "InstName" : "uart_test",
+  "ModuleFile" : "C:/Users/Think/OneDrive/Documents/GitHub/TangPrimer-25K-example/UART/src/uart_top.v",
+  "ModuleLine" : 2,
+  "ModuleName" : "uart_test",
+  "SubInsts" : [
+   {
+    "InstFile" : "C:/Users/Think/OneDrive/Documents/GitHub/TangPrimer-25K-example/UART/src/uart_top.v",
+    "InstLine" : 100,
+    "InstName" : "uart_rx_inst",
+    "ModuleFile" : "C:/Users/Think/OneDrive/Documents/GitHub/TangPrimer-25K-example/UART/src/uart_rx.v",
+    "ModuleLine" : 1,
+    "ModuleName" : "uart_rx"
+   },
+   {
+    "InstFile" : "C:/Users/Think/OneDrive/Documents/GitHub/TangPrimer-25K-example/UART/src/uart_top.v",
+    "InstLine" : 114,
+    "InstName" : "uart_tx_inst",
+    "ModuleFile" : "C:/Users/Think/OneDrive/Documents/GitHub/TangPrimer-25K-example/UART/src/uart_tx.v",
+    "ModuleLine" : 1,
+    "ModuleName" : "uart_tx"
+   }
+  ]
+ }
+]

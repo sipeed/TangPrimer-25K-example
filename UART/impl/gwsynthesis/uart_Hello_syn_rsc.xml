@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<Module name="uart_test" Register="48" Lut="104">
-    <SubModule name="uart_rx_inst" Register="41" Alu="18" Lut="44"/>
-    <SubModule name="uart_tx_inst" Register="32" Alu="18" Lut="28"/>
-</Module>

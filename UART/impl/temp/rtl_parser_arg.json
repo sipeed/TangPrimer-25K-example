@@ -2,15 +2,15 @@
  "Device" : "GW5A-25A",
  "Files" : [
   {
-   "Path" : "/home/pc/work/Tang/25K/tmp/TangPrimer-25K-example/UART/src/uart_rx.v",
+   "Path" : "C:/Users/Think/OneDrive/Documents/GitHub/TangPrimer-25K-example/UART/src/uart_rx.v",
    "Type" : "verilog"
   },
   {
-   "Path" : "/home/pc/work/Tang/25K/tmp/TangPrimer-25K-example/UART/src/uart_top.v",
+   "Path" : "C:/Users/Think/OneDrive/Documents/GitHub/TangPrimer-25K-example/UART/src/uart_top.v",
    "Type" : "verilog"
   },
   {
-   "Path" : "/home/pc/work/Tang/25K/tmp/TangPrimer-25K-example/UART/src/uart_tx.v",
+   "Path" : "C:/Users/Think/OneDrive/Documents/GitHub/TangPrimer-25K-example/UART/src/uart_tx.v",
    "Type" : "verilog"
   }
  ],
@@ -18,8 +18,8 @@
 
  ],
  "LoopLimit" : 2000,
- "ResultFile" : "/home/pc/work/Tang/25K/tmp/TangPrimer-25K-example/UART/impl/temp/rtl_parser.result",
- "Top" : "",
+ "ResultFile" : "C:/Users/Think/OneDrive/Documents/GitHub/TangPrimer-25K-example/UART/impl/temp/rtl_parser.result",
+ "Top" : "uart_test",
  "VerilogStd" : "verilog_2001",
  "VhdlStd" : "vhdl_93"
 }

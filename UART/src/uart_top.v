@@ -1,12 +1,28 @@
+`define KEY 
 module uart_test(
 	input                        clk,
-//	input                        rst_n,
+	input                        rst,
 	input                        uart_rx,
-	output                       uart_tx
+	output                       uart_tx,
+    output                       sample_clk
 );
+wire rst_n;
+
+`ifdef KEY
+assign rst_n = ~rst;
+`else
 assign rst_n = 1;
-parameter                        CLK_FRE  = 50;//Mhz
-parameter                        UART_FRE = 115200;//Mhz
+`endif
+
+//internal OSC for GAO sample_clk
+OSCA uut(
+.OSCOUT(sample_clk),//4.2MHz
+.OSCEN(1'b1)
+);
+defparam uut.FREQ_DIV=50;//210MHz/50=4.2Hz
+
+parameter                        CLK_FRE  = 50;//MHz
+parameter                        UART_FRE = 115200;//baudrate
 localparam                       IDLE =  0;
 localparam                       SEND =  1;   //send 
 localparam                       WAIT =  2;   //wait 1 second and send uart received data
