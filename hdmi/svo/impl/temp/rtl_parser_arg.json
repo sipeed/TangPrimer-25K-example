@@ -2,55 +2,55 @@
  "Device" : "GW5A-25A",
  "Files" : [
   {
-   "Path" : "F:/TangPrimer-25K-example/hdmi/svo/src/gowin_clkdiv/gowin_clkdiv.v",
+   "Path" : "C:/Users/Think/OneDrive/Documents/GitHub/TangPrimer-25K-example/hdmi/svo/src/gowin_clkdiv/gowin_clkdiv.v",
    "Type" : "verilog"
   },
   {
-   "Path" : "F:/TangPrimer-25K-example/hdmi/svo/src/gowin_pll/gowin_pll.v",
+   "Path" : "C:/Users/Think/OneDrive/Documents/GitHub/TangPrimer-25K-example/hdmi/svo/src/gowin_pll/gowin_pll.v",
    "Type" : "verilog"
   },
   {
-   "Path" : "F:/TangPrimer-25K-example/hdmi/svo/src/hdmi/svo_defines.vh",
+   "Path" : "C:/Users/Think/OneDrive/Documents/GitHub/TangPrimer-25K-example/hdmi/svo/src/hdmi/svo_defines.vh",
    "Type" : "verilog"
   },
   {
-   "Path" : "F:/TangPrimer-25K-example/hdmi/svo/src/hdmi/svo_enc.v",
+   "Path" : "C:/Users/Think/OneDrive/Documents/GitHub/TangPrimer-25K-example/hdmi/svo/src/hdmi/svo_enc.v",
    "Type" : "verilog"
   },
   {
-   "Path" : "F:/TangPrimer-25K-example/hdmi/svo/src/hdmi/svo_openldi.v",
+   "Path" : "C:/Users/Think/OneDrive/Documents/GitHub/TangPrimer-25K-example/hdmi/svo/src/hdmi/svo_openldi.v",
    "Type" : "verilog"
   },
   {
-   "Path" : "F:/TangPrimer-25K-example/hdmi/svo/src/hdmi/svo_pong.v",
+   "Path" : "C:/Users/Think/OneDrive/Documents/GitHub/TangPrimer-25K-example/hdmi/svo/src/hdmi/svo_pong.v",
    "Type" : "verilog"
   },
   {
-   "Path" : "F:/TangPrimer-25K-example/hdmi/svo/src/hdmi/svo_tcard.v",
+   "Path" : "C:/Users/Think/OneDrive/Documents/GitHub/TangPrimer-25K-example/hdmi/svo/src/hdmi/svo_tcard.v",
    "Type" : "verilog"
   },
   {
-   "Path" : "F:/TangPrimer-25K-example/hdmi/svo/src/hdmi/svo_term.v",
+   "Path" : "C:/Users/Think/OneDrive/Documents/GitHub/TangPrimer-25K-example/hdmi/svo/src/hdmi/svo_term.v",
    "Type" : "verilog"
   },
   {
-   "Path" : "F:/TangPrimer-25K-example/hdmi/svo/src/hdmi/svo_tmds.v",
+   "Path" : "C:/Users/Think/OneDrive/Documents/GitHub/TangPrimer-25K-example/hdmi/svo/src/hdmi/svo_tmds.v",
    "Type" : "verilog"
   },
   {
-   "Path" : "F:/TangPrimer-25K-example/hdmi/svo/src/hdmi/svo_utils.v",
+   "Path" : "C:/Users/Think/OneDrive/Documents/GitHub/TangPrimer-25K-example/hdmi/svo/src/hdmi/svo_utils.v",
    "Type" : "verilog"
   },
   {
-   "Path" : "F:/TangPrimer-25K-example/hdmi/svo/src/hdmi/svo_vdma.v",
+   "Path" : "C:/Users/Think/OneDrive/Documents/GitHub/TangPrimer-25K-example/hdmi/svo/src/hdmi/svo_vdma.v",
    "Type" : "verilog"
   },
   {
-   "Path" : "F:/TangPrimer-25K-example/hdmi/svo/src/svo_hdmi.v",
+   "Path" : "C:/Users/Think/OneDrive/Documents/GitHub/TangPrimer-25K-example/hdmi/svo/src/svo_hdmi.v",
    "Type" : "verilog"
   },
   {
-   "Path" : "F:/TangPrimer-25K-example/hdmi/svo/src/top.v",
+   "Path" : "C:/Users/Think/OneDrive/Documents/GitHub/TangPrimer-25K-example/hdmi/svo/src/top.v",
    "Type" : "verilog"
   }
  ],
@@ -58,7 +58,7 @@
 
  ],
  "LoopLimit" : 2000,
- "ResultFile" : "F:/TangPrimer-25K-example/hdmi/svo/impl/temp/rtl_parser.result",
+ "ResultFile" : "C:/Users/Think/OneDrive/Documents/GitHub/TangPrimer-25K-example/hdmi/svo/impl/temp/rtl_parser.result",
  "Top" : "top",
  "VerilogStd" : "verilog_2001",
  "VhdlStd" : "vhdl_93"

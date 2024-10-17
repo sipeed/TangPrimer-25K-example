@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<Module name="TOP" Register="18" Alu="45" Lut="4">
- <SubModule name="logo_rom" Bsram="4"/>
- <SubModule name="hubif" Register="15" Lut="34"/>
-</Module>

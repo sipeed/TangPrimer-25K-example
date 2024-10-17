@@ -24,10 +24,10 @@ On the three PMOD interfaces, plug the key switch module, LED module, and digita
   + The highest bit of the dip switch is HIGH, then the LED flow lamp.
 ### Tips
 + If you need the replication project, right-click Configuration in Synthesize and set the top-level module.
-+ ![](OpenConfigure.png)
-+ ![](SetTopModules.png)
++ ![](./docs/images/OpenConfigure.png)
++ ![](./docs/images/SetTopModules.png)
 
 + I/O multiplexing needs to be set with the Dual-Purpose Pin of Place & Route in the interface.
-+ ![](SetIOMultiplexing.png)
++ ![](./docs/images/SetIOMultiplexing.png)
 
 + The upper right corner  of Tang Primer 25K is the reset button, which is external pull-up. Therefore, if it is used as the reset button, the internal weak pull-down is needed when the pin constraint is used

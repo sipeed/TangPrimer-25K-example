@@ -2,11 +2,11 @@
  "Device" : "GW5A-25A",
  "Files" : [
   {
-   "Path" : "/home/pc/work/Tang/25K/HUB75E/HUB75E/src/top.v.v",
+   "Path" : "C:/Users/Think/OneDrive/Documents/GitHub/TangPrimer-25K-example/pmod_hub75e/src/gowin_prom/gowin_prom.v",
    "Type" : "verilog"
   },
   {
-   "Path" : "/home/pc/work/Tang/25K/HUB75E/HUB75E/src/gowin_prom/gowin_prom.v",
+   "Path" : "C:/Users/Think/OneDrive/Documents/GitHub/TangPrimer-25K-example/pmod_hub75e/src/top.v.v",
    "Type" : "verilog"
   }
  ],
@@ -14,7 +14,7 @@
 
  ],
  "LoopLimit" : 2000,
- "ResultFile" : "/home/pc/work/Tang/25K/HUB75E/HUB75E/impl/temp/rtl_parser.result",
+ "ResultFile" : "C:/Users/Think/OneDrive/Documents/GitHub/TangPrimer-25K-example/pmod_hub75e/impl/temp/rtl_parser.result",
  "Top" : "",
  "VerilogStd" : "verilog_2001",
  "VhdlStd" : "vhdl_93"

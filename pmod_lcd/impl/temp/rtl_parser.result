@@ -1,9 +1,9 @@
 [
  {
-  "InstFile" : "F:/TangPrimer-25K-example/pmod_lcd/src/top.v",
+  "InstFile" : "C:/Users/Think/OneDrive/Documents/GitHub/TangPrimer-25K-example/pmod_lcd/src/top.v",
   "InstLine" : 3,
   "InstName" : "lcd114_test",
-  "ModuleFile" : "F:/TangPrimer-25K-example/pmod_lcd/src/top.v",
+  "ModuleFile" : "C:/Users/Think/OneDrive/Documents/GitHub/TangPrimer-25K-example/pmod_lcd/src/top.v",
   "ModuleLine" : 3,
   "ModuleName" : "lcd114_test"
  }

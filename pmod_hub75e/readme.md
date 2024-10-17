@@ -1,8 +1,8 @@
 Connect PMOD_HUB75E to the 2 PMOD close to USB-C.   
 Press S1 Key after burn flash.   
 
-![pic1](pic1.jpg)
-![pic2](pic2.jpg)
+![pic1](./docs/images/pic1.jpg)
+![pic2](./docs/images/pic2.jpg)
 
 hex file generate by python code:   
 ```   

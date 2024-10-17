@@ -2,19 +2,19 @@
  "Device" : "GW5A-25A",
  "Files" : [
   {
-   "Path" : "F:/work/BaiduNetdiskWorkspace/verilog_Code/pmod_digitalTube-2bit/src/driver_Button.v",
+   "Path" : "C:/Users/Think/OneDrive/Documents/GitHub/TangPrimer-25K-example/pmod_digitalTube-2bit/src/driver_Button.v",
    "Type" : "verilog"
   },
   {
-   "Path" : "F:/work/BaiduNetdiskWorkspace/verilog_Code/pmod_digitalTube-2bit/src/driver_DigitalTube.v",
+   "Path" : "C:/Users/Think/OneDrive/Documents/GitHub/TangPrimer-25K-example/pmod_digitalTube-2bit/src/driver_DigitalTube.v",
    "Type" : "verilog"
   },
   {
-   "Path" : "F:/work/BaiduNetdiskWorkspace/verilog_Code/pmod_digitalTube-2bit/src/driver_Led.v",
+   "Path" : "C:/Users/Think/OneDrive/Documents/GitHub/TangPrimer-25K-example/pmod_digitalTube-2bit/src/driver_Led.v",
    "Type" : "verilog"
   },
   {
-   "Path" : "F:/work/BaiduNetdiskWorkspace/verilog_Code/pmod_digitalTube-2bit/src/top_demo.v",
+   "Path" : "C:/Users/Think/OneDrive/Documents/GitHub/TangPrimer-25K-example/pmod_digitalTube-2bit/src/top_demo.v",
    "Type" : "verilog"
   }
  ],
@@ -22,8 +22,8 @@
 
  ],
  "LoopLimit" : 2000,
- "ResultFile" : "F:/work/BaiduNetdiskWorkspace/verilog_Code/pmod_digitalTube-2bit/impl/temp/rtl_parser.result",
- "Top" : "",
+ "ResultFile" : "C:/Users/Think/OneDrive/Documents/GitHub/TangPrimer-25K-example/pmod_digitalTube-2bit/impl/temp/rtl_parser.result",
+ "Top" : "top_demo",
  "VerilogStd" : "verilog_2001",
  "VhdlStd" : "vhdl_93"
 }

@@ -1,277 +1,269 @@
 [
  {
-  "InstFile" : "H:/nestang/nestang-master-25k/src/dualshock_controller.v",
+  "InstFile" : "C:/Users/Think/OneDrive/Documents/GitHub/TangPrimer-25K-example/nestang-25k/src/dualshock_controller.v",
   "InstLine" : 191,
   "InstName" : "txd_commnd_EZ",
-  "ModuleFile" : "H:/nestang/nestang-master-25k/src/dualshock_controller.v",
+  "ModuleFile" : "C:/Users/Think/OneDrive/Documents/GitHub/TangPrimer-25K-example/nestang-25k/src/dualshock_controller.v",
   "ModuleLine" : 191,
   "ModuleName" : "txd_commnd_EZ"
  },
  {
-  "InstFile" : "H:/nestang/nestang-master-25k/src/gowin_rpll_nes/gowin_rpll.v",
-  "InstLine" : 9,
-  "InstName" : "Gowin_rPLL_nes",
-  "ModuleFile" : "H:/nestang/nestang-master-25k/src/gowin_rpll_nes/gowin_rpll.v",
-  "ModuleLine" : 9,
-  "ModuleName" : "Gowin_rPLL_nes"
+  "InstFile" : "C:/Users/Think/OneDrive/Documents/GitHub/TangPrimer-25K-example/nestang-25k/src/hdmi/gowin_pll/gowin_pll_hdmi.v",
+  "InstLine" : 10,
+  "InstName" : "Gowin_PLL_HDMI",
+  "ModuleFile" : "C:/Users/Think/OneDrive/Documents/GitHub/TangPrimer-25K-example/nestang-25k/src/hdmi/gowin_pll/gowin_pll_hdmi.v",
+  "ModuleLine" : 10,
+  "ModuleName" : "Gowin_PLL_HDMI"
  },
  {
-  "InstFile" : "H:/nestang/nestang-master-25k/src/hw_sound.v",
+  "InstFile" : "C:/Users/Think/OneDrive/Documents/GitHub/TangPrimer-25K-example/nestang-25k/src/hw_sound.v",
   "InstLine" : 8,
   "InstName" : "SoundDriver",
-  "ModuleFile" : "H:/nestang/nestang-master-25k/src/hw_sound.v",
+  "ModuleFile" : "C:/Users/Think/OneDrive/Documents/GitHub/TangPrimer-25K-example/nestang-25k/src/hw_sound.v",
   "ModuleLine" : 8,
   "ModuleName" : "SoundDriver"
  },
  {
-  "InstFile" : "H:/nestang/nestang-master-25k/src/nes_tang20k.v",
+  "InstFile" : "C:/Users/Think/OneDrive/Documents/GitHub/TangPrimer-25K-example/nestang-25k/src/nes_tang25k.v",
   "InstLine" : 8,
-  "InstName" : "NES_Tang20k",
-  "ModuleFile" : "H:/nestang/nestang-master-25k/src/nes_tang20k.v",
+  "InstName" : "NES_Tang25k",
+  "ModuleFile" : "C:/Users/Think/OneDrive/Documents/GitHub/TangPrimer-25K-example/nestang-25k/src/nes_tang25k.v",
   "ModuleLine" : 8,
-  "ModuleName" : "NES_Tang20k",
+  "ModuleName" : "NES_Tang25k",
   "SubInsts" : [
    {
-    "InstFile" : "H:/nestang/nestang-master-25k/src/nes_tang20k.v",
-    "InstLine" : 87,
-    "InstName" : "pll_nes",
-    "ModuleFile" : "H:/nestang/nestang-master-25k/src/gowin_rpll_usb.v",
-    "ModuleLine" : 2,
-    "ModuleName" : "Gowin_rPLL_usb"
+    "InstFile" : "C:/Users/Think/OneDrive/Documents/GitHub/TangPrimer-25K-example/nestang-25k/src/nes_tang25k.v",
+    "InstLine" : 86,
+    "InstName" : "pll_clk",
+    "ModuleFile" : "C:/Users/Think/OneDrive/Documents/GitHub/TangPrimer-25K-example/nestang-25k/src/gowin_pll/gowin_pll.v",
+    "ModuleLine" : 10,
+    "ModuleName" : "Gowin_PLL"
    },
    {
-    "InstFile" : "H:/nestang/nestang-master-25k/src/nes_tang20k.v",
-    "InstLine" : 98,
-    "InstName" : "pll_hdmi",
-    "ModuleFile" : "H:/nestang/nestang-master-25k/src/gowin_rpll_hdmi/gowin_rpll.v",
-    "ModuleLine" : 9,
-    "ModuleName" : "Gowin_rPLL_hdmi"
-   },
-   {
-    "InstFile" : "H:/nestang/nestang-master-25k/src/nes_tang20k.v",
-    "InstLine" : 104,
+    "InstFile" : "C:/Users/Think/OneDrive/Documents/GitHub/TangPrimer-25K-example/nestang-25k/src/nes_tang25k.v",
+    "InstLine" : 95,
     "InstName" : "clk_div",
-    "ModuleFile" : "H:/nestang/nestang-master-25k/src/gowin_clkdiv/gowin_clkdiv.v",
-    "ModuleLine" : 9,
+    "ModuleFile" : "C:/Users/Think/OneDrive/Documents/GitHub/TangPrimer-25K-example/nestang-25k/src/gowin_clkdiv/gowin_clkdiv.v",
+    "ModuleLine" : 10,
     "ModuleName" : "Gowin_CLKDIV"
    },
    {
-    "InstFile" : "H:/nestang/nestang-master-25k/src/nes_tang20k.v",
-    "InstLine" : 144,
+    "InstFile" : "C:/Users/Think/OneDrive/Documents/GitHub/TangPrimer-25K-example/nestang-25k/src/nes_tang25k.v",
+    "InstLine" : 134,
     "InstName" : "uart_demux",
-    "ModuleFile" : "H:/nestang/nestang-master-25k/src/hw_uart.v",
+    "ModuleFile" : "C:/Users/Think/OneDrive/Documents/GitHub/TangPrimer-25K-example/nestang-25k/src/hw_uart.v",
     "ModuleLine" : 194,
     "ModuleName" : "UartDemux",
     "SubInsts" : [
      {
-      "InstFile" : "H:/nestang/nestang-master-25k/src/hw_uart.v",
+      "InstFile" : "C:/Users/Think/OneDrive/Documents/GitHub/TangPrimer-25K-example/nestang-25k/src/hw_uart.v",
       "InstLine" : 200,
       "InstName" : "uart",
-      "ModuleFile" : "H:/nestang/nestang-master-25k/src/hw_uart.v",
+      "ModuleFile" : "C:/Users/Think/OneDrive/Documents/GitHub/TangPrimer-25K-example/nestang-25k/src/hw_uart.v",
       "ModuleLine" : 22,
       "ModuleName" : "uart_rx"
      }
     ]
    },
    {
-    "InstFile" : "H:/nestang/nestang-master-25k/src/nes_tang20k.v",
-    "InstLine" : 214,
+    "InstFile" : "C:/Users/Think/OneDrive/Documents/GitHub/TangPrimer-25K-example/nestang-25k/src/nes_tang25k.v",
+    "InstLine" : 204,
     "InstName" : "loader",
-    "ModuleFile" : "H:/nestang/nestang-master-25k/src/game_loader.v",
+    "ModuleFile" : "C:/Users/Think/OneDrive/Documents/GitHub/TangPrimer-25K-example/nestang-25k/src/game_loader.v",
     "ModuleLine" : 5,
     "ModuleName" : "GameLoader"
    },
    {
-    "InstFile" : "H:/nestang/nestang-master-25k/src/nes_tang20k.v",
-    "InstLine" : 278,
+    "InstFile" : "C:/Users/Think/OneDrive/Documents/GitHub/TangPrimer-25K-example/nestang-25k/src/nes_tang25k.v",
+    "InstLine" : 268,
     "InstName" : "nes",
-    "ModuleFile" : "H:/nestang/nestang-master-25k/src/nes.v",
+    "ModuleFile" : "C:/Users/Think/OneDrive/Documents/GitHub/TangPrimer-25K-example/nestang-25k/src/nes.v",
     "ModuleLine" : 123,
     "ModuleName" : "NES",
     "SubInsts" : [
      {
-      "InstFile" : "H:/nestang/nestang-master-25k/src/nes.v",
+      "InstFile" : "C:/Users/Think/OneDrive/Documents/GitHub/TangPrimer-25K-example/nestang-25k/src/nes.v",
       "InstLine" : 182,
       "InstName" : "cpu",
-      "ModuleFile" : "H:/nestang/nestang-master-25k/src/cpu.v",
+      "ModuleFile" : "C:/Users/Think/OneDrive/Documents/GitHub/TangPrimer-25K-example/nestang-25k/src/cpu.v",
       "ModuleLine" : 173,
       "ModuleName" : "CPU",
       "SubInsts" : [
        {
-        "InstFile" : "H:/nestang/nestang-master-25k/src/cpu.v",
+        "InstFile" : "C:/Users/Think/OneDrive/Documents/GitHub/TangPrimer-25K-example/nestang-25k/src/cpu.v",
         "InstLine" : 221,
         "InstName" : "addgen",
-        "ModuleFile" : "H:/nestang/nestang-master-25k/src/cpu.v",
+        "ModuleFile" : "C:/Users/Think/OneDrive/Documents/GitHub/TangPrimer-25K-example/nestang-25k/src/cpu.v",
         "ModuleLine" : 107,
         "ModuleName" : "AddressGenerator"
        },
        {
-        "InstFile" : "H:/nestang/nestang-master-25k/src/cpu.v",
+        "InstFile" : "C:/Users/Think/OneDrive/Documents/GitHub/TangPrimer-25K-example/nestang-25k/src/cpu.v",
         "InstLine" : 224,
         "InstName" : "micro2",
-        "ModuleFile" : "H:/nestang/nestang-master-25k/src/MicroCode.v",
+        "ModuleFile" : "C:/Users/Think/OneDrive/Documents/GitHub/TangPrimer-25K-example/nestang-25k/src/MicroCode.v",
         "ModuleLine" : 2060,
         "ModuleName" : "MicroCodeTable",
         "SubInsts" : [
          {
-          "InstFile" : "H:/nestang/nestang-master-25k/src/MicroCode.v",
+          "InstFile" : "C:/Users/Think/OneDrive/Documents/GitHub/TangPrimer-25K-example/nestang-25k/src/MicroCode.v",
           "InstLine" : 2062,
           "InstName" : "inner",
-          "ModuleFile" : "H:/nestang/nestang-master-25k/src/MicroCode.v",
+          "ModuleFile" : "C:/Users/Think/OneDrive/Documents/GitHub/TangPrimer-25K-example/nestang-25k/src/MicroCode.v",
           "ModuleLine" : 1,
           "ModuleName" : "MicroCodeTableInner"
          }
         ]
        },
        {
-        "InstFile" : "H:/nestang/nestang-master-25k/src/cpu.v",
+        "InstFile" : "C:/Users/Think/OneDrive/Documents/GitHub/TangPrimer-25K-example/nestang-25k/src/cpu.v",
         "InstLine" : 229,
         "InstName" : "new_alu",
-        "ModuleFile" : "H:/nestang/nestang-master-25k/src/cpu.v",
+        "ModuleFile" : "C:/Users/Think/OneDrive/Documents/GitHub/TangPrimer-25K-example/nestang-25k/src/cpu.v",
         "ModuleLine" : 32,
         "ModuleName" : "NewAlu",
         "SubInsts" : [
          {
-          "InstFile" : "H:/nestang/nestang-master-25k/src/cpu.v",
+          "InstFile" : "C:/Users/Think/OneDrive/Documents/GitHub/TangPrimer-25K-example/nestang-25k/src/cpu.v",
           "InstLine" : 82,
           "InstName" : "addsub",
-          "ModuleFile" : "H:/nestang/nestang-master-25k/src/cpu.v",
+          "ModuleFile" : "C:/Users/Think/OneDrive/Documents/GitHub/TangPrimer-25K-example/nestang-25k/src/cpu.v",
           "ModuleLine" : 6,
           "ModuleName" : "MyAddSub",
           "SubInsts" : [
            {
-            "InstFile" : "H:/nestang/nestang-master-25k/src/cpu.v",
+            "InstFile" : "C:/Users/Think/OneDrive/Documents/GitHub/TangPrimer-25K-example/nestang-25k/src/cpu.v",
             "InstLine" : 13,
             "InstName" : "MUXCY_L0",
-            "ModuleFile" : "H:/nestang/nestang-master-25k/src/compat.v",
+            "ModuleFile" : "C:/Users/Think/OneDrive/Documents/GitHub/TangPrimer-25K-example/nestang-25k/src/compat.v",
             "ModuleLine" : 6,
             "ModuleName" : "MUXCY_L"
            },
            {
-            "InstFile" : "H:/nestang/nestang-master-25k/src/cpu.v",
+            "InstFile" : "C:/Users/Think/OneDrive/Documents/GitHub/TangPrimer-25K-example/nestang-25k/src/cpu.v",
             "InstLine" : 14,
             "InstName" : "MUXCY_L1",
-            "ModuleFile" : "H:/nestang/nestang-master-25k/src/compat.v",
+            "ModuleFile" : "C:/Users/Think/OneDrive/Documents/GitHub/TangPrimer-25K-example/nestang-25k/src/compat.v",
             "ModuleLine" : 6,
             "ModuleName" : "MUXCY_L"
            },
            {
-            "InstFile" : "H:/nestang/nestang-master-25k/src/cpu.v",
+            "InstFile" : "C:/Users/Think/OneDrive/Documents/GitHub/TangPrimer-25K-example/nestang-25k/src/cpu.v",
             "InstLine" : 15,
             "InstName" : "MUXCY_L2",
-            "ModuleFile" : "H:/nestang/nestang-master-25k/src/compat.v",
+            "ModuleFile" : "C:/Users/Think/OneDrive/Documents/GitHub/TangPrimer-25K-example/nestang-25k/src/compat.v",
             "ModuleLine" : 6,
             "ModuleName" : "MUXCY_L"
            },
            {
-            "InstFile" : "H:/nestang/nestang-master-25k/src/cpu.v",
+            "InstFile" : "C:/Users/Think/OneDrive/Documents/GitHub/TangPrimer-25K-example/nestang-25k/src/cpu.v",
             "InstLine" : 16,
             "InstName" : "MUXCY_L3",
-            "ModuleFile" : "H:/nestang/nestang-master-25k/src/compat.v",
+            "ModuleFile" : "C:/Users/Think/OneDrive/Documents/GitHub/TangPrimer-25K-example/nestang-25k/src/compat.v",
             "ModuleLine" : 6,
             "ModuleName" : "MUXCY_L"
            },
            {
-            "InstFile" : "H:/nestang/nestang-master-25k/src/cpu.v",
+            "InstFile" : "C:/Users/Think/OneDrive/Documents/GitHub/TangPrimer-25K-example/nestang-25k/src/cpu.v",
             "InstLine" : 17,
             "InstName" : "MUXCY_L4",
-            "ModuleFile" : "H:/nestang/nestang-master-25k/src/compat.v",
+            "ModuleFile" : "C:/Users/Think/OneDrive/Documents/GitHub/TangPrimer-25K-example/nestang-25k/src/compat.v",
             "ModuleLine" : 6,
             "ModuleName" : "MUXCY_L"
            },
            {
-            "InstFile" : "H:/nestang/nestang-master-25k/src/cpu.v",
+            "InstFile" : "C:/Users/Think/OneDrive/Documents/GitHub/TangPrimer-25K-example/nestang-25k/src/cpu.v",
             "InstLine" : 18,
             "InstName" : "MUXCY_L5",
-            "ModuleFile" : "H:/nestang/nestang-master-25k/src/compat.v",
+            "ModuleFile" : "C:/Users/Think/OneDrive/Documents/GitHub/TangPrimer-25K-example/nestang-25k/src/compat.v",
             "ModuleLine" : 6,
             "ModuleName" : "MUXCY_L"
            },
            {
-            "InstFile" : "H:/nestang/nestang-master-25k/src/cpu.v",
+            "InstFile" : "C:/Users/Think/OneDrive/Documents/GitHub/TangPrimer-25K-example/nestang-25k/src/cpu.v",
             "InstLine" : 19,
             "InstName" : "MUXCY_D6",
-            "ModuleFile" : "H:/nestang/nestang-master-25k/src/compat.v",
+            "ModuleFile" : "C:/Users/Think/OneDrive/Documents/GitHub/TangPrimer-25K-example/nestang-25k/src/compat.v",
             "ModuleLine" : 9,
             "ModuleName" : "MUXCY_D"
            },
            {
-            "InstFile" : "H:/nestang/nestang-master-25k/src/cpu.v",
+            "InstFile" : "C:/Users/Think/OneDrive/Documents/GitHub/TangPrimer-25K-example/nestang-25k/src/cpu.v",
             "InstLine" : 20,
             "InstName" : "MUXCY_7",
-            "ModuleFile" : "H:/nestang/nestang-master-25k/src/compat.v",
+            "ModuleFile" : "C:/Users/Think/OneDrive/Documents/GitHub/TangPrimer-25K-example/nestang-25k/src/compat.v",
             "ModuleLine" : 3,
             "ModuleName" : "MUXCY"
            },
            {
-            "InstFile" : "H:/nestang/nestang-master-25k/src/cpu.v",
+            "InstFile" : "C:/Users/Think/OneDrive/Documents/GitHub/TangPrimer-25K-example/nestang-25k/src/cpu.v",
             "InstLine" : 21,
             "InstName" : "XORCY0",
-            "ModuleFile" : "H:/nestang/nestang-master-25k/src/compat.v",
+            "ModuleFile" : "C:/Users/Think/OneDrive/Documents/GitHub/TangPrimer-25K-example/nestang-25k/src/compat.v",
             "ModuleLine" : 13,
             "ModuleName" : "XORCY"
            },
            {
-            "InstFile" : "H:/nestang/nestang-master-25k/src/cpu.v",
+            "InstFile" : "C:/Users/Think/OneDrive/Documents/GitHub/TangPrimer-25K-example/nestang-25k/src/cpu.v",
             "InstLine" : 22,
             "InstName" : "XORCY1",
-            "ModuleFile" : "H:/nestang/nestang-master-25k/src/compat.v",
+            "ModuleFile" : "C:/Users/Think/OneDrive/Documents/GitHub/TangPrimer-25K-example/nestang-25k/src/compat.v",
             "ModuleLine" : 13,
             "ModuleName" : "XORCY"
            },
            {
-            "InstFile" : "H:/nestang/nestang-master-25k/src/cpu.v",
+            "InstFile" : "C:/Users/Think/OneDrive/Documents/GitHub/TangPrimer-25K-example/nestang-25k/src/cpu.v",
             "InstLine" : 23,
             "InstName" : "XORCY2",
-            "ModuleFile" : "H:/nestang/nestang-master-25k/src/compat.v",
+            "ModuleFile" : "C:/Users/Think/OneDrive/Documents/GitHub/TangPrimer-25K-example/nestang-25k/src/compat.v",
             "ModuleLine" : 13,
             "ModuleName" : "XORCY"
            },
            {
-            "InstFile" : "H:/nestang/nestang-master-25k/src/cpu.v",
+            "InstFile" : "C:/Users/Think/OneDrive/Documents/GitHub/TangPrimer-25K-example/nestang-25k/src/cpu.v",
             "InstLine" : 24,
             "InstName" : "XORCY3",
-            "ModuleFile" : "H:/nestang/nestang-master-25k/src/compat.v",
+            "ModuleFile" : "C:/Users/Think/OneDrive/Documents/GitHub/TangPrimer-25K-example/nestang-25k/src/compat.v",
             "ModuleLine" : 13,
             "ModuleName" : "XORCY"
            },
            {
-            "InstFile" : "H:/nestang/nestang-master-25k/src/cpu.v",
+            "InstFile" : "C:/Users/Think/OneDrive/Documents/GitHub/TangPrimer-25K-example/nestang-25k/src/cpu.v",
             "InstLine" : 25,
             "InstName" : "XORCY4",
-            "ModuleFile" : "H:/nestang/nestang-master-25k/src/compat.v",
+            "ModuleFile" : "C:/Users/Think/OneDrive/Documents/GitHub/TangPrimer-25K-example/nestang-25k/src/compat.v",
             "ModuleLine" : 13,
             "ModuleName" : "XORCY"
            },
            {
-            "InstFile" : "H:/nestang/nestang-master-25k/src/cpu.v",
+            "InstFile" : "C:/Users/Think/OneDrive/Documents/GitHub/TangPrimer-25K-example/nestang-25k/src/cpu.v",
             "InstLine" : 26,
             "InstName" : "XORCY5",
-            "ModuleFile" : "H:/nestang/nestang-master-25k/src/compat.v",
+            "ModuleFile" : "C:/Users/Think/OneDrive/Documents/GitHub/TangPrimer-25K-example/nestang-25k/src/compat.v",
             "ModuleLine" : 13,
             "ModuleName" : "XORCY"
            },
            {
-            "InstFile" : "H:/nestang/nestang-master-25k/src/cpu.v",
+            "InstFile" : "C:/Users/Think/OneDrive/Documents/GitHub/TangPrimer-25K-example/nestang-25k/src/cpu.v",
             "InstLine" : 27,
             "InstName" : "XORCY6",
-            "ModuleFile" : "H:/nestang/nestang-master-25k/src/compat.v",
+            "ModuleFile" : "C:/Users/Think/OneDrive/Documents/GitHub/TangPrimer-25K-example/nestang-25k/src/compat.v",
             "ModuleLine" : 13,
             "ModuleName" : "XORCY"
            },
            {
-            "InstFile" : "H:/nestang/nestang-master-25k/src/cpu.v",
+            "InstFile" : "C:/Users/Think/OneDrive/Documents/GitHub/TangPrimer-25K-example/nestang-25k/src/cpu.v",
             "InstLine" : 28,
             "InstName" : "XORCY7",
-            "ModuleFile" : "H:/nestang/nestang-master-25k/src/compat.v",
+            "ModuleFile" : "C:/Users/Think/OneDrive/Documents/GitHub/TangPrimer-25K-example/nestang-25k/src/compat.v",
             "ModuleLine" : 13,
             "ModuleName" : "XORCY"
            },
            {
-            "InstFile" : "H:/nestang/nestang-master-25k/src/cpu.v",
+            "InstFile" : "C:/Users/Think/OneDrive/Documents/GitHub/TangPrimer-25K-example/nestang-25k/src/cpu.v",
             "InstLine" : 29,
             "InstName" : "X1",
-            "ModuleFile" : "H:/nestang/nestang-master-25k/src/compat.v",
+            "ModuleFile" : "C:/Users/Think/OneDrive/Documents/GitHub/TangPrimer-25K-example/nestang-25k/src/compat.v",
             "ModuleLine" : 16,
             "ModuleName" : "XOR2"
            }
@@ -280,522 +272,522 @@
         ]
        },
        {
-        "InstFile" : "H:/nestang/nestang-master-25k/src/cpu.v",
+        "InstFile" : "C:/Users/Think/OneDrive/Documents/GitHub/TangPrimer-25K-example/nestang-25k/src/cpu.v",
         "InstLine" : 243,
         "InstName" : "pc",
-        "ModuleFile" : "H:/nestang/nestang-master-25k/src/cpu.v",
+        "ModuleFile" : "C:/Users/Think/OneDrive/Documents/GitHub/TangPrimer-25K-example/nestang-25k/src/cpu.v",
         "ModuleLine" : 149,
         "ModuleName" : "ProgramCounter"
        }
       ]
      },
      {
-      "InstFile" : "H:/nestang/nestang-master-25k/src/nes.v",
+      "InstFile" : "C:/Users/Think/OneDrive/Documents/GitHub/TangPrimer-25K-example/nestang-25k/src/nes.v",
       "InstLine" : 198,
       "InstName" : "dma",
-      "ModuleFile" : "H:/nestang/nestang-master-25k/src/nes.v",
+      "ModuleFile" : "C:/Users/Think/OneDrive/Documents/GitHub/TangPrimer-25K-example/nestang-25k/src/nes.v",
       "ModuleLine" : 46,
       "ModuleName" : "DmaController"
      },
      {
-      "InstFile" : "H:/nestang/nestang-master-25k/src/nes.v",
+      "InstFile" : "C:/Users/Think/OneDrive/Documents/GitHub/TangPrimer-25K-example/nestang-25k/src/nes.v",
       "InstLine" : 217,
       "InstName" : "apu",
-      "ModuleFile" : "H:/nestang/nestang-master-25k/src/apu.v",
+      "ModuleFile" : "C:/Users/Think/OneDrive/Documents/GitHub/TangPrimer-25K-example/nestang-25k/src/apu.v",
       "ModuleLine" : 624,
       "ModuleName" : "APU",
       "SubInsts" : [
        {
-        "InstFile" : "H:/nestang/nestang-master-25k/src/apu.v",
+        "InstFile" : "C:/Users/Think/OneDrive/Documents/GitHub/TangPrimer-25K-example/nestang-25k/src/apu.v",
         "InstLine" : 664,
         "InstName" : "len",
-        "ModuleFile" : "H:/nestang/nestang-master-25k/src/apu.v",
+        "ModuleFile" : "C:/Users/Think/OneDrive/Documents/GitHub/TangPrimer-25K-example/nestang-25k/src/apu.v",
         "ModuleLine" : 4,
         "ModuleName" : "LenCtr_Lookup"
        },
        {
-        "InstFile" : "H:/nestang/nestang-master-25k/src/apu.v",
+        "InstFile" : "C:/Users/Think/OneDrive/Documents/GitHub/TangPrimer-25K-example/nestang-25k/src/apu.v",
         "InstLine" : 678,
         "InstName" : "Sq1",
-        "ModuleFile" : "H:/nestang/nestang-master-25k/src/apu.v",
+        "ModuleFile" : "C:/Users/Think/OneDrive/Documents/GitHub/TangPrimer-25K-example/nestang-25k/src/apu.v",
         "ModuleLine" : 46,
         "ModuleName" : "SquareChan"
        },
        {
-        "InstFile" : "H:/nestang/nestang-master-25k/src/apu.v",
+        "InstFile" : "C:/Users/Think/OneDrive/Documents/GitHub/TangPrimer-25K-example/nestang-25k/src/apu.v",
         "InstLine" : 679,
         "InstName" : "Sq2",
-        "ModuleFile" : "H:/nestang/nestang-master-25k/src/apu.v",
+        "ModuleFile" : "C:/Users/Think/OneDrive/Documents/GitHub/TangPrimer-25K-example/nestang-25k/src/apu.v",
         "ModuleLine" : 46,
         "ModuleName" : "SquareChan"
        },
        {
-        "InstFile" : "H:/nestang/nestang-master-25k/src/apu.v",
+        "InstFile" : "C:/Users/Think/OneDrive/Documents/GitHub/TangPrimer-25K-example/nestang-25k/src/apu.v",
         "InstLine" : 680,
         "InstName" : "Tri",
-        "ModuleFile" : "H:/nestang/nestang-master-25k/src/apu.v",
+        "ModuleFile" : "C:/Users/Think/OneDrive/Documents/GitHub/TangPrimer-25K-example/nestang-25k/src/apu.v",
         "ModuleLine" : 198,
         "ModuleName" : "TriangleChan"
        },
        {
-        "InstFile" : "H:/nestang/nestang-master-25k/src/apu.v",
+        "InstFile" : "C:/Users/Think/OneDrive/Documents/GitHub/TangPrimer-25K-example/nestang-25k/src/apu.v",
         "InstLine" : 681,
         "InstName" : "Noi",
-        "ModuleFile" : "H:/nestang/nestang-master-25k/src/apu.v",
+        "ModuleFile" : "C:/Users/Think/OneDrive/Documents/GitHub/TangPrimer-25K-example/nestang-25k/src/apu.v",
         "ModuleLine" : 287,
         "ModuleName" : "NoiseChan"
        },
        {
-        "InstFile" : "H:/nestang/nestang-master-25k/src/apu.v",
+        "InstFile" : "C:/Users/Think/OneDrive/Documents/GitHub/TangPrimer-25K-example/nestang-25k/src/apu.v",
         "InstLine" : 682,
         "InstName" : "Dmc",
-        "ModuleFile" : "H:/nestang/nestang-master-25k/src/apu.v",
+        "ModuleFile" : "C:/Users/Think/OneDrive/Documents/GitHub/TangPrimer-25K-example/nestang-25k/src/apu.v",
         "ModuleLine" : 405,
         "ModuleName" : "DmcChan"
        },
        {
-        "InstFile" : "H:/nestang/nestang-master-25k/src/apu.v",
+        "InstFile" : "C:/Users/Think/OneDrive/Documents/GitHub/TangPrimer-25K-example/nestang-25k/src/apu.v",
         "InstLine" : 786,
         "InstName" : "lookup",
-        "ModuleFile" : "H:/nestang/nestang-master-25k/src/apu.v",
+        "ModuleFile" : "C:/Users/Think/OneDrive/Documents/GitHub/TangPrimer-25K-example/nestang-25k/src/apu.v",
         "ModuleLine" : 552,
         "ModuleName" : "ApuLookupTable"
        }
       ]
      },
      {
-      "InstFile" : "H:/nestang/nestang-master-25k/src/nes.v",
+      "InstFile" : "C:/Users/Think/OneDrive/Documents/GitHub/TangPrimer-25K-example/nestang-25k/src/nes.v",
       "InstLine" : 248,
       "InstName" : "ppu",
-      "ModuleFile" : "H:/nestang/nestang-master-25k/src/ppu.v",
+      "ModuleFile" : "C:/Users/Think/OneDrive/Documents/GitHub/TangPrimer-25K-example/nestang-25k/src/ppu.v",
       "ModuleLine" : 465,
       "ModuleName" : "PPU",
       "SubInsts" : [
        {
-        "InstFile" : "H:/nestang/nestang-master-25k/src/ppu.v",
+        "InstFile" : "C:/Users/Think/OneDrive/Documents/GitHub/TangPrimer-25K-example/nestang-25k/src/ppu.v",
         "InstLine" : 520,
         "InstName" : "clock",
-        "ModuleFile" : "H:/nestang/nestang-master-25k/src/ppu.v",
+        "ModuleFile" : "C:/Users/Think/OneDrive/Documents/GitHub/TangPrimer-25K-example/nestang-25k/src/ppu.v",
         "ModuleLine" : 99,
         "ModuleName" : "ClockGen"
        },
        {
-        "InstFile" : "H:/nestang/nestang-master-25k/src/ppu.v",
+        "InstFile" : "C:/Users/Think/OneDrive/Documents/GitHub/TangPrimer-25K-example/nestang-25k/src/ppu.v",
         "InstLine" : 527,
         "InstName" : "loopy0",
-        "ModuleFile" : "H:/nestang/nestang-master-25k/src/ppu.v",
+        "ModuleFile" : "C:/Users/Think/OneDrive/Documents/GitHub/TangPrimer-25K-example/nestang-25k/src/ppu.v",
         "ModuleLine" : 5,
         "ModuleName" : "LoopyGen"
        },
        {
-        "InstFile" : "H:/nestang/nestang-master-25k/src/ppu.v",
+        "InstFile" : "C:/Users/Think/OneDrive/Documents/GitHub/TangPrimer-25K-example/nestang-25k/src/ppu.v",
         "InstLine" : 535,
         "InstName" : "bg_painter",
-        "ModuleFile" : "H:/nestang/nestang-master-25k/src/ppu.v",
+        "ModuleFile" : "C:/Users/Think/OneDrive/Documents/GitHub/TangPrimer-25K-example/nestang-25k/src/ppu.v",
         "ModuleLine" : 387,
         "ModuleName" : "BgPainter"
        },
        {
-        "InstFile" : "H:/nestang/nestang-master-25k/src/ppu.v",
+        "InstFile" : "C:/Users/Think/OneDrive/Documents/GitHub/TangPrimer-25K-example/nestang-25k/src/ppu.v",
         "InstLine" : 546,
         "InstName" : "sprite_ram",
-        "ModuleFile" : "H:/nestang/nestang-master-25k/src/ppu.v",
+        "ModuleFile" : "C:/Users/Think/OneDrive/Documents/GitHub/TangPrimer-25K-example/nestang-25k/src/ppu.v",
         "ModuleLine" : 216,
         "ModuleName" : "SpriteRAM"
        },
        {
-        "InstFile" : "H:/nestang/nestang-master-25k/src/ppu.v",
+        "InstFile" : "C:/Users/Think/OneDrive/Documents/GitHub/TangPrimer-25K-example/nestang-25k/src/ppu.v",
         "InstLine" : 565,
         "InstName" : "address_gen",
-        "ModuleFile" : "H:/nestang/nestang-master-25k/src/ppu.v",
+        "ModuleFile" : "C:/Users/Think/OneDrive/Documents/GitHub/TangPrimer-25K-example/nestang-25k/src/ppu.v",
         "ModuleLine" : 336,
         "ModuleName" : "SpriteAddressGen"
        },
        {
-        "InstFile" : "H:/nestang/nestang-master-25k/src/ppu.v",
+        "InstFile" : "C:/Users/Think/OneDrive/Documents/GitHub/TangPrimer-25K-example/nestang-25k/src/ppu.v",
         "InstLine" : 576,
         "InstName" : "sprite_gen",
-        "ModuleFile" : "H:/nestang/nestang-master-25k/src/ppu.v",
+        "ModuleFile" : "C:/Users/Think/OneDrive/Documents/GitHub/TangPrimer-25K-example/nestang-25k/src/ppu.v",
         "ModuleLine" : 187,
         "ModuleName" : "SpriteSet",
         "SubInsts" : [
          {
-          "InstFile" : "H:/nestang/nestang-master-25k/src/ppu.v",
+          "InstFile" : "C:/Users/Think/OneDrive/Documents/GitHub/TangPrimer-25K-example/nestang-25k/src/ppu.v",
           "InstLine" : 196,
           "InstName" : "sprite7",
-          "ModuleFile" : "H:/nestang/nestang-master-25k/src/ppu.v",
+          "ModuleFile" : "C:/Users/Think/OneDrive/Documents/GitHub/TangPrimer-25K-example/nestang-25k/src/ppu.v",
           "ModuleLine" : 153,
           "ModuleName" : "Sprite"
          },
          {
-          "InstFile" : "H:/nestang/nestang-master-25k/src/ppu.v",
+          "InstFile" : "C:/Users/Think/OneDrive/Documents/GitHub/TangPrimer-25K-example/nestang-25k/src/ppu.v",
           "InstLine" : 197,
           "InstName" : "sprite6",
-          "ModuleFile" : "H:/nestang/nestang-master-25k/src/ppu.v",
+          "ModuleFile" : "C:/Users/Think/OneDrive/Documents/GitHub/TangPrimer-25K-example/nestang-25k/src/ppu.v",
           "ModuleLine" : 153,
           "ModuleName" : "Sprite"
          },
          {
-          "InstFile" : "H:/nestang/nestang-master-25k/src/ppu.v",
+          "InstFile" : "C:/Users/Think/OneDrive/Documents/GitHub/TangPrimer-25K-example/nestang-25k/src/ppu.v",
           "InstLine" : 198,
           "InstName" : "sprite5",
-          "ModuleFile" : "H:/nestang/nestang-master-25k/src/ppu.v",
+          "ModuleFile" : "C:/Users/Think/OneDrive/Documents/GitHub/TangPrimer-25K-example/nestang-25k/src/ppu.v",
           "ModuleLine" : 153,
           "ModuleName" : "Sprite"
          },
          {
-          "InstFile" : "H:/nestang/nestang-master-25k/src/ppu.v",
+          "InstFile" : "C:/Users/Think/OneDrive/Documents/GitHub/TangPrimer-25K-example/nestang-25k/src/ppu.v",
           "InstLine" : 199,
           "InstName" : "sprite4",
-          "ModuleFile" : "H:/nestang/nestang-master-25k/src/ppu.v",
+          "ModuleFile" : "C:/Users/Think/OneDrive/Documents/GitHub/TangPrimer-25K-example/nestang-25k/src/ppu.v",
           "ModuleLine" : 153,
           "ModuleName" : "Sprite"
          },
          {
-          "InstFile" : "H:/nestang/nestang-master-25k/src/ppu.v",
+          "InstFile" : "C:/Users/Think/OneDrive/Documents/GitHub/TangPrimer-25K-example/nestang-25k/src/ppu.v",
           "InstLine" : 200,
           "InstName" : "sprite3",
-          "ModuleFile" : "H:/nestang/nestang-master-25k/src/ppu.v",
+          "ModuleFile" : "C:/Users/Think/OneDrive/Documents/GitHub/TangPrimer-25K-example/nestang-25k/src/ppu.v",
           "ModuleLine" : 153,
           "ModuleName" : "Sprite"
          },
          {
-          "InstFile" : "H:/nestang/nestang-master-25k/src/ppu.v",
+          "InstFile" : "C:/Users/Think/OneDrive/Documents/GitHub/TangPrimer-25K-example/nestang-25k/src/ppu.v",
           "InstLine" : 201,
           "InstName" : "sprite2",
-          "ModuleFile" : "H:/nestang/nestang-master-25k/src/ppu.v",
+          "ModuleFile" : "C:/Users/Think/OneDrive/Documents/GitHub/TangPrimer-25K-example/nestang-25k/src/ppu.v",
           "ModuleLine" : 153,
           "ModuleName" : "Sprite"
          },
          {
-          "InstFile" : "H:/nestang/nestang-master-25k/src/ppu.v",
+          "InstFile" : "C:/Users/Think/OneDrive/Documents/GitHub/TangPrimer-25K-example/nestang-25k/src/ppu.v",
           "InstLine" : 202,
           "InstName" : "sprite1",
-          "ModuleFile" : "H:/nestang/nestang-master-25k/src/ppu.v",
+          "ModuleFile" : "C:/Users/Think/OneDrive/Documents/GitHub/TangPrimer-25K-example/nestang-25k/src/ppu.v",
           "ModuleLine" : 153,
           "ModuleName" : "Sprite"
          },
          {
-          "InstFile" : "H:/nestang/nestang-master-25k/src/ppu.v",
+          "InstFile" : "C:/Users/Think/OneDrive/Documents/GitHub/TangPrimer-25K-example/nestang-25k/src/ppu.v",
           "InstLine" : 203,
           "InstName" : "sprite0",
-          "ModuleFile" : "H:/nestang/nestang-master-25k/src/ppu.v",
+          "ModuleFile" : "C:/Users/Think/OneDrive/Documents/GitHub/TangPrimer-25K-example/nestang-25k/src/ppu.v",
           "ModuleLine" : 153,
           "ModuleName" : "Sprite"
          }
         ]
        },
        {
-        "InstFile" : "H:/nestang/nestang-master-25k/src/ppu.v",
+        "InstFile" : "C:/Users/Think/OneDrive/Documents/GitHub/TangPrimer-25K-example/nestang-25k/src/ppu.v",
         "InstLine" : 606,
         "InstName" : "pixel_muxer",
-        "ModuleFile" : "H:/nestang/nestang-master-25k/src/ppu.v",
+        "ModuleFile" : "C:/Users/Think/OneDrive/Documents/GitHub/TangPrimer-25K-example/nestang-25k/src/ppu.v",
         "ModuleLine" : 442,
         "ModuleName" : "PixelMuxer"
        },
        {
-        "InstFile" : "H:/nestang/nestang-master-25k/src/ppu.v",
+        "InstFile" : "C:/Users/Think/OneDrive/Documents/GitHub/TangPrimer-25K-example/nestang-25k/src/ppu.v",
         "InstLine" : 622,
         "InstName" : "palette_ram",
-        "ModuleFile" : "H:/nestang/nestang-master-25k/src/ppu.v",
+        "ModuleFile" : "C:/Users/Think/OneDrive/Documents/GitHub/TangPrimer-25K-example/nestang-25k/src/ppu.v",
         "ModuleLine" : 450,
         "ModuleName" : "PaletteRam"
        }
       ]
      },
      {
-      "InstFile" : "H:/nestang/nestang-master-25k/src/nes.v",
+      "InstFile" : "C:/Users/Think/OneDrive/Documents/GitHub/TangPrimer-25K-example/nestang-25k/src/nes.v",
       "InstLine" : 265,
       "InstName" : "multi_mapper",
-      "ModuleFile" : "H:/nestang/nestang-master-25k/src/mmu.v",
+      "ModuleFile" : "C:/Users/Think/OneDrive/Documents/GitHub/TangPrimer-25K-example/nestang-25k/src/mmu.v",
       "ModuleLine" : 1556,
       "ModuleName" : "MultiMapper",
       "SubInsts" : [
        {
-        "InstFile" : "H:/nestang/nestang-master-25k/src/mmu.v",
+        "InstFile" : "C:/Users/Think/OneDrive/Documents/GitHub/TangPrimer-25K-example/nestang-25k/src/mmu.v",
         "InstLine" : 1574,
         "InstName" : "mmc0",
-        "ModuleFile" : "H:/nestang/nestang-master-25k/src/mmu.v",
+        "ModuleFile" : "C:/Users/Think/OneDrive/Documents/GitHub/TangPrimer-25K-example/nestang-25k/src/mmu.v",
         "ModuleLine" : 5,
         "ModuleName" : "MMC0"
        },
        {
-        "InstFile" : "H:/nestang/nestang-master-25k/src/mmu.v",
+        "InstFile" : "C:/Users/Think/OneDrive/Documents/GitHub/TangPrimer-25K-example/nestang-25k/src/mmu.v",
         "InstLine" : 1579,
         "InstName" : "mmc1",
-        "ModuleFile" : "H:/nestang/nestang-master-25k/src/mmu.v",
+        "ModuleFile" : "C:/Users/Think/OneDrive/Documents/GitHub/TangPrimer-25K-example/nestang-25k/src/mmu.v",
         "ModuleLine" : 25,
         "ModuleName" : "MMC1"
        },
        {
-        "InstFile" : "H:/nestang/nestang-master-25k/src/mmu.v",
+        "InstFile" : "C:/Users/Think/OneDrive/Documents/GitHub/TangPrimer-25K-example/nestang-25k/src/mmu.v",
         "InstLine" : 1584,
         "InstName" : "map28",
-        "ModuleFile" : "H:/nestang/nestang-master-25k/src/mmu.v",
+        "ModuleFile" : "C:/Users/Think/OneDrive/Documents/GitHub/TangPrimer-25K-example/nestang-25k/src/mmu.v",
         "ModuleLine" : 947,
         "ModuleName" : "Mapper28"
        },
        {
-        "InstFile" : "H:/nestang/nestang-master-25k/src/mmu.v",
+        "InstFile" : "C:/Users/Think/OneDrive/Documents/GitHub/TangPrimer-25K-example/nestang-25k/src/mmu.v",
         "InstLine" : 1589,
         "InstName" : "mmc2",
-        "ModuleFile" : "H:/nestang/nestang-master-25k/src/mmu.v",
+        "ModuleFile" : "C:/Users/Think/OneDrive/Documents/GitHub/TangPrimer-25K-example/nestang-25k/src/mmu.v",
         "ModuleLine" : 136,
         "ModuleName" : "MMC2"
        },
        {
-        "InstFile" : "H:/nestang/nestang-master-25k/src/mmu.v",
+        "InstFile" : "C:/Users/Think/OneDrive/Documents/GitHub/TangPrimer-25K-example/nestang-25k/src/mmu.v",
         "InstLine" : 1594,
         "InstName" : "mmc3",
-        "ModuleFile" : "H:/nestang/nestang-master-25k/src/mmu.v",
+        "ModuleFile" : "C:/Users/Think/OneDrive/Documents/GitHub/TangPrimer-25K-example/nestang-25k/src/mmu.v",
         "ModuleLine" : 253,
         "ModuleName" : "MMC3"
        },
        {
-        "InstFile" : "H:/nestang/nestang-master-25k/src/mmu.v",
+        "InstFile" : "C:/Users/Think/OneDrive/Documents/GitHub/TangPrimer-25K-example/nestang-25k/src/mmu.v",
         "InstLine" : 1601,
         "InstName" : "mmc5",
-        "ModuleFile" : "H:/nestang/nestang-master-25k/src/mmu.v",
+        "ModuleFile" : "C:/Users/Think/OneDrive/Documents/GitHub/TangPrimer-25K-example/nestang-25k/src/mmu.v",
         "ModuleLine" : 397,
         "ModuleName" : "MMC5"
        },
        {
-        "InstFile" : "H:/nestang/nestang-master-25k/src/mmu.v",
+        "InstFile" : "C:/Users/Think/OneDrive/Documents/GitHub/TangPrimer-25K-example/nestang-25k/src/mmu.v",
         "InstLine" : 1607,
         "InstName" : "map13",
-        "ModuleFile" : "H:/nestang/nestang-master-25k/src/mmu.v",
+        "ModuleFile" : "C:/Users/Think/OneDrive/Documents/GitHub/TangPrimer-25K-example/nestang-25k/src/mmu.v",
         "ModuleLine" : 858,
         "ModuleName" : "Mapper13"
        },
        {
-        "InstFile" : "H:/nestang/nestang-master-25k/src/mmu.v",
+        "InstFile" : "C:/Users/Think/OneDrive/Documents/GitHub/TangPrimer-25K-example/nestang-25k/src/mmu.v",
         "InstLine" : 1612,
         "InstName" : "map15",
-        "ModuleFile" : "H:/nestang/nestang-master-25k/src/mmu.v",
+        "ModuleFile" : "C:/Users/Think/OneDrive/Documents/GitHub/TangPrimer-25K-example/nestang-25k/src/mmu.v",
         "ModuleLine" : 884,
         "ModuleName" : "Mapper15"
        },
        {
-        "InstFile" : "H:/nestang/nestang-master-25k/src/mmu.v",
+        "InstFile" : "C:/Users/Think/OneDrive/Documents/GitHub/TangPrimer-25K-example/nestang-25k/src/mmu.v",
         "InstLine" : 1617,
         "InstName" : "map34",
-        "ModuleFile" : "H:/nestang/nestang-master-25k/src/mmu.v",
+        "ModuleFile" : "C:/Users/Think/OneDrive/Documents/GitHub/TangPrimer-25K-example/nestang-25k/src/mmu.v",
         "ModuleLine" : 1074,
         "ModuleName" : "Mapper34"
        },
        {
-        "InstFile" : "H:/nestang/nestang-master-25k/src/mmu.v",
+        "InstFile" : "C:/Users/Think/OneDrive/Documents/GitHub/TangPrimer-25K-example/nestang-25k/src/mmu.v",
         "InstLine" : 1622,
         "InstName" : "map41",
-        "ModuleFile" : "H:/nestang/nestang-master-25k/src/mmu.v",
+        "ModuleFile" : "C:/Users/Think/OneDrive/Documents/GitHub/TangPrimer-25K-example/nestang-25k/src/mmu.v",
         "ModuleLine" : 1120,
         "ModuleName" : "Mapper41"
        },
        {
-        "InstFile" : "H:/nestang/nestang-master-25k/src/mmu.v",
+        "InstFile" : "C:/Users/Think/OneDrive/Documents/GitHub/TangPrimer-25K-example/nestang-25k/src/mmu.v",
         "InstLine" : 1627,
         "InstName" : "map66",
-        "ModuleFile" : "H:/nestang/nestang-master-25k/src/mmu.v",
+        "ModuleFile" : "C:/Users/Think/OneDrive/Documents/GitHub/TangPrimer-25K-example/nestang-25k/src/mmu.v",
         "ModuleLine" : 1041,
         "ModuleName" : "Mapper66"
        },
        {
-        "InstFile" : "H:/nestang/nestang-master-25k/src/mmu.v",
+        "InstFile" : "C:/Users/Think/OneDrive/Documents/GitHub/TangPrimer-25K-example/nestang-25k/src/mmu.v",
         "InstLine" : 1632,
         "InstName" : "map68",
-        "ModuleFile" : "H:/nestang/nestang-master-25k/src/mmu.v",
+        "ModuleFile" : "C:/Users/Think/OneDrive/Documents/GitHub/TangPrimer-25K-example/nestang-25k/src/mmu.v",
         "ModuleLine" : 1157,
         "ModuleName" : "Mapper68"
        },
        {
-        "InstFile" : "H:/nestang/nestang-master-25k/src/mmu.v",
+        "InstFile" : "C:/Users/Think/OneDrive/Documents/GitHub/TangPrimer-25K-example/nestang-25k/src/mmu.v",
         "InstLine" : 1637,
         "InstName" : "map69",
-        "ModuleFile" : "H:/nestang/nestang-master-25k/src/mmu.v",
+        "ModuleFile" : "C:/Users/Think/OneDrive/Documents/GitHub/TangPrimer-25K-example/nestang-25k/src/mmu.v",
         "ModuleLine" : 1222,
         "ModuleName" : "Mapper69"
        },
        {
-        "InstFile" : "H:/nestang/nestang-master-25k/src/mmu.v",
+        "InstFile" : "C:/Users/Think/OneDrive/Documents/GitHub/TangPrimer-25K-example/nestang-25k/src/mmu.v",
         "InstLine" : 1642,
         "InstName" : "map71",
-        "ModuleFile" : "H:/nestang/nestang-master-25k/src/mmu.v",
+        "ModuleFile" : "C:/Users/Think/OneDrive/Documents/GitHub/TangPrimer-25K-example/nestang-25k/src/mmu.v",
         "ModuleLine" : 1314,
         "ModuleName" : "Mapper71"
        },
        {
-        "InstFile" : "H:/nestang/nestang-master-25k/src/mmu.v",
+        "InstFile" : "C:/Users/Think/OneDrive/Documents/GitHub/TangPrimer-25K-example/nestang-25k/src/mmu.v",
         "InstLine" : 1647,
         "InstName" : "map79",
-        "ModuleFile" : "H:/nestang/nestang-master-25k/src/mmu.v",
+        "ModuleFile" : "C:/Users/Think/OneDrive/Documents/GitHub/TangPrimer-25K-example/nestang-25k/src/mmu.v",
         "ModuleLine" : 1360,
         "ModuleName" : "Mapper79"
        },
        {
-        "InstFile" : "H:/nestang/nestang-master-25k/src/mmu.v",
+        "InstFile" : "C:/Users/Think/OneDrive/Documents/GitHub/TangPrimer-25K-example/nestang-25k/src/mmu.v",
         "InstLine" : 1653,
         "InstName" : "map228",
-        "ModuleFile" : "H:/nestang/nestang-master-25k/src/mmu.v",
+        "ModuleFile" : "C:/Users/Think/OneDrive/Documents/GitHub/TangPrimer-25K-example/nestang-25k/src/mmu.v",
         "ModuleLine" : 1450,
         "ModuleName" : "Mapper228"
        },
        {
-        "InstFile" : "H:/nestang/nestang-master-25k/src/mmu.v",
+        "InstFile" : "C:/Users/Think/OneDrive/Documents/GitHub/TangPrimer-25K-example/nestang-25k/src/mmu.v",
         "InstLine" : 1659,
         "InstName" : "map234",
-        "ModuleFile" : "H:/nestang/nestang-master-25k/src/mmu.v",
+        "ModuleFile" : "C:/Users/Think/OneDrive/Documents/GitHub/TangPrimer-25K-example/nestang-25k/src/mmu.v",
         "ModuleLine" : 1484,
         "ModuleName" : "Mapper234"
        },
        {
-        "InstFile" : "H:/nestang/nestang-master-25k/src/mmu.v",
+        "InstFile" : "C:/Users/Think/OneDrive/Documents/GitHub/TangPrimer-25K-example/nestang-25k/src/mmu.v",
         "InstLine" : 1664,
         "InstName" : "rambo1",
-        "ModuleFile" : "H:/nestang/nestang-master-25k/src/mmu.v",
+        "ModuleFile" : "C:/Users/Think/OneDrive/Documents/GitHub/TangPrimer-25K-example/nestang-25k/src/mmu.v",
         "ModuleLine" : 714,
         "ModuleName" : "Rambo1"
        },
        {
-        "InstFile" : "H:/nestang/nestang-master-25k/src/mmu.v",
+        "InstFile" : "C:/Users/Think/OneDrive/Documents/GitHub/TangPrimer-25K-example/nestang-25k/src/mmu.v",
         "InstLine" : 1669,
         "InstName" : "nesev",
-        "ModuleFile" : "H:/nestang/nestang-master-25k/src/mmu.v",
+        "ModuleFile" : "C:/Users/Think/OneDrive/Documents/GitHub/TangPrimer-25K-example/nestang-25k/src/mmu.v",
         "ModuleLine" : 1392,
         "ModuleName" : "NesEvent"
        }
       ]
      },
      {
-      "InstFile" : "H:/nestang/nestang-master-25k/src/nes.v",
+      "InstFile" : "C:/Users/Think/OneDrive/Documents/GitHub/TangPrimer-25K-example/nestang-25k/src/nes.v",
       "InstLine" : 283,
       "InstName" : "mem",
-      "ModuleFile" : "H:/nestang/nestang-master-25k/src/nes.v",
+      "ModuleFile" : "C:/Users/Think/OneDrive/Documents/GitHub/TangPrimer-25K-example/nestang-25k/src/nes.v",
       "ModuleLine" : 96,
       "ModuleName" : "MemoryMultiplex"
      }
     ]
    },
    {
-    "InstFile" : "H:/nestang/nestang-master-25k/src/nes_tang20k.v",
-    "InstLine" : 294,
+    "InstFile" : "C:/Users/Think/OneDrive/Documents/GitHub/TangPrimer-25K-example/nestang-25k/src/nes_tang25k.v",
+    "InstLine" : 284,
     "InstName" : "memory",
-    "ModuleFile" : "H:/nestang/nestang-master-25k/src/memory_controller.v",
+    "ModuleFile" : "C:/Users/Think/OneDrive/Documents/GitHub/TangPrimer-25K-example/nestang-25k/src/memory_controller.v",
     "ModuleLine" : 11,
     "ModuleName" : "MemoryController",
     "SubInsts" : [
      {
-      "InstFile" : "H:/nestang/nestang-master-25k/src/memory_controller.v",
-      "InstLine" : 61,
+      "InstFile" : "C:/Users/Think/OneDrive/Documents/GitHub/TangPrimer-25K-example/nestang-25k/src/memory_controller.v",
+      "InstLine" : 62,
       "InstName" : "u_sdram",
-      "ModuleFile" : "H:/nestang/nestang-master-25k/src/sdram.v",
+      "ModuleFile" : "C:/Users/Think/OneDrive/Documents/GitHub/TangPrimer-25K-example/nestang-25k/src/sdram.v",
       "ModuleLine" : 27,
       "ModuleName" : "sdram"
      }
     ]
    },
    {
-    "InstFile" : "H:/nestang/nestang-master-25k/src/nes_tang20k.v",
-    "InstLine" : 317,
+    "InstFile" : "C:/Users/Think/OneDrive/Documents/GitHub/TangPrimer-25K-example/nestang-25k/src/nes_tang25k.v",
+    "InstLine" : 307,
     "InstName" : "u_hdmi",
-    "ModuleFile" : "H:/nestang/nestang-master-25k/src/nes2hdmi.sv",
+    "ModuleFile" : "C:/Users/Think/OneDrive/Documents/GitHub/TangPrimer-25K-example/nestang-25k/src/nes2hdmi.sv",
     "ModuleLine" : 8,
     "ModuleName" : "nes2hdmi",
     "SubInsts" : [
      {
-      "InstFile" : "H:/nestang/nestang-master-25k/src/nes2hdmi.sv",
+      "InstFile" : "C:/Users/Think/OneDrive/Documents/GitHub/TangPrimer-25K-example/nestang-25k/src/nes2hdmi.sv",
       "InstLine" : 248,
       "InstName" : "hdmi",
-      "ModuleFile" : "H:/nestang/nestang-master-25k/src/hdmi2/hdmi.sv",
+      "ModuleFile" : "C:/Users/Think/OneDrive/Documents/GitHub/TangPrimer-25K-example/nestang-25k/src/hdmi2/hdmi.sv",
       "ModuleLine" : 4,
       "ModuleName" : "hdmi",
       "SubInsts" : [
        {
-        "InstFile" : "H:/nestang/nestang-master-25k/src/hdmi2/hdmi.sv",
+        "InstFile" : "C:/Users/Think/OneDrive/Documents/GitHub/TangPrimer-25K-example/nestang-25k/src/hdmi2/hdmi.sv",
         "InstLine" : 313,
         "InstName" : "true_hdmi_output.packet_picker",
-        "ModuleFile" : "H:/nestang/nestang-master-25k/src/hdmi2/packet_picker.sv",
+        "ModuleFile" : "C:/Users/Think/OneDrive/Documents/GitHub/TangPrimer-25K-example/nestang-25k/src/hdmi2/packet_picker.sv",
         "ModuleLine" : 4,
         "ModuleName" : "packet_picker",
         "SubInsts" : [
          {
-          "InstFile" : "H:/nestang/nestang-master-25k/src/hdmi2/packet_picker.sv",
+          "InstFile" : "C:/Users/Think/OneDrive/Documents/GitHub/TangPrimer-25K-example/nestang-25k/src/hdmi2/packet_picker.sv",
           "InstLine" : 51,
           "InstName" : "audio_clock_regeneration_packet",
-          "ModuleFile" : "H:/nestang/nestang-master-25k/src/hdmi2/audio_clock_regeneration_packet.sv",
+          "ModuleFile" : "C:/Users/Think/OneDrive/Documents/GitHub/TangPrimer-25K-example/nestang-25k/src/hdmi2/audio_clock_regeneration_packet.sv",
           "ModuleLine" : 5,
           "ModuleName" : "audio_clock_regeneration_packet"
          },
          {
-          "InstFile" : "H:/nestang/nestang-master-25k/src/hdmi2/packet_picker.sv",
+          "InstFile" : "C:/Users/Think/OneDrive/Documents/GitHub/TangPrimer-25K-example/nestang-25k/src/hdmi2/packet_picker.sv",
           "InstLine" : 131,
           "InstName" : "audio_sample_packet",
-          "ModuleFile" : "H:/nestang/nestang-master-25k/src/hdmi2/audio_sample_packet.sv",
+          "ModuleFile" : "C:/Users/Think/OneDrive/Documents/GitHub/TangPrimer-25K-example/nestang-25k/src/hdmi2/audio_sample_packet.sv",
           "ModuleLine" : 8,
           "ModuleName" : "audio_sample_packet"
          },
          {
-          "InstFile" : "H:/nestang/nestang-master-25k/src/hdmi2/packet_picker.sv",
+          "InstFile" : "C:/Users/Think/OneDrive/Documents/GitHub/TangPrimer-25K-example/nestang-25k/src/hdmi2/packet_picker.sv",
           "InstLine" : 137,
           "InstName" : "auxiliary_video_information_info_frame",
-          "ModuleFile" : "H:/nestang/nestang-master-25k/src/hdmi2/auxiliary_video_information_info_frame.sv",
+          "ModuleFile" : "C:/Users/Think/OneDrive/Documents/GitHub/TangPrimer-25K-example/nestang-25k/src/hdmi2/auxiliary_video_information_info_frame.sv",
           "ModuleLine" : 5,
           "ModuleName" : "auxiliary_video_information_info_frame"
          },
          {
-          "InstFile" : "H:/nestang/nestang-master-25k/src/hdmi2/packet_picker.sv",
+          "InstFile" : "C:/Users/Think/OneDrive/Documents/GitHub/TangPrimer-25K-example/nestang-25k/src/hdmi2/packet_picker.sv",
           "InstLine" : 140,
           "InstName" : "source_product_description_info_frame",
-          "ModuleFile" : "H:/nestang/nestang-master-25k/src/hdmi2/source_product_description_info_frame.sv",
+          "ModuleFile" : "C:/Users/Think/OneDrive/Documents/GitHub/TangPrimer-25K-example/nestang-25k/src/hdmi2/source_product_description_info_frame.sv",
           "ModuleLine" : 5,
           "ModuleName" : "source_product_description_info_frame"
          },
          {
-          "InstFile" : "H:/nestang/nestang-master-25k/src/hdmi2/packet_picker.sv",
+          "InstFile" : "C:/Users/Think/OneDrive/Documents/GitHub/TangPrimer-25K-example/nestang-25k/src/hdmi2/packet_picker.sv",
           "InstLine" : 143,
           "InstName" : "audio_info_frame",
-          "ModuleFile" : "H:/nestang/nestang-master-25k/src/hdmi2/audio_info_frame.sv",
+          "ModuleFile" : "C:/Users/Think/OneDrive/Documents/GitHub/TangPrimer-25K-example/nestang-25k/src/hdmi2/audio_info_frame.sv",
           "ModuleLine" : 5,
           "ModuleName" : "audio_info_frame"
          }
         ]
        },
        {
-        "InstFile" : "H:/nestang/nestang-master-25k/src/hdmi2/hdmi.sv",
+        "InstFile" : "C:/Users/Think/OneDrive/Documents/GitHub/TangPrimer-25K-example/nestang-25k/src/hdmi2/hdmi.sv",
         "InstLine" : 315,
         "InstName" : "true_hdmi_output.packet_assembler",
-        "ModuleFile" : "H:/nestang/nestang-master-25k/src/hdmi2/packet_assembler.sv",
+        "ModuleFile" : "C:/Users/Think/OneDrive/Documents/GitHub/TangPrimer-25K-example/nestang-25k/src/hdmi2/packet_assembler.sv",
         "ModuleLine" : 4,
         "ModuleName" : "packet_assembler"
        },
        {
-        "InstFile" : "H:/nestang/nestang-master-25k/src/hdmi2/hdmi.sv",
+        "InstFile" : "C:/Users/Think/OneDrive/Documents/GitHub/TangPrimer-25K-example/nestang-25k/src/hdmi2/hdmi.sv",
         "InstLine" : 366,
         "InstName" : "tmds_gen[0].tmds_channel",
-        "ModuleFile" : "H:/nestang/nestang-master-25k/src/hdmi2/tmds_channel.sv",
+        "ModuleFile" : "C:/Users/Think/OneDrive/Documents/GitHub/TangPrimer-25K-example/nestang-25k/src/hdmi2/tmds_channel.sv",
         "ModuleLine" : 4,
         "ModuleName" : "tmds_channel"
        },
        {
-        "InstFile" : "H:/nestang/nestang-master-25k/src/hdmi2/hdmi.sv",
+        "InstFile" : "C:/Users/Think/OneDrive/Documents/GitHub/TangPrimer-25K-example/nestang-25k/src/hdmi2/hdmi.sv",
         "InstLine" : 366,
         "InstName" : "tmds_gen[1].tmds_channel",
-        "ModuleFile" : "H:/nestang/nestang-master-25k/src/hdmi2/tmds_channel.sv",
+        "ModuleFile" : "C:/Users/Think/OneDrive/Documents/GitHub/TangPrimer-25K-example/nestang-25k/src/hdmi2/tmds_channel.sv",
         "ModuleLine" : 4,
         "ModuleName" : "tmds_channel"
        },
        {
-        "InstFile" : "H:/nestang/nestang-master-25k/src/hdmi2/hdmi.sv",
+        "InstFile" : "C:/Users/Think/OneDrive/Documents/GitHub/TangPrimer-25K-example/nestang-25k/src/hdmi2/hdmi.sv",
         "InstLine" : 366,
         "InstName" : "tmds_gen[2].tmds_channel",
-        "ModuleFile" : "H:/nestang/nestang-master-25k/src/hdmi2/tmds_channel.sv",
+        "ModuleFile" : "C:/Users/Think/OneDrive/Documents/GitHub/TangPrimer-25K-example/nestang-25k/src/hdmi2/tmds_channel.sv",
         "ModuleLine" : 4,
         "ModuleName" : "tmds_channel"
        },
        {
-        "InstFile" : "H:/nestang/nestang-master-25k/src/hdmi2/hdmi.sv",
+        "InstFile" : "C:/Users/Think/OneDrive/Documents/GitHub/TangPrimer-25K-example/nestang-25k/src/hdmi2/hdmi.sv",
         "InstLine" : 370,
         "InstName" : "serializer",
-        "ModuleFile" : "H:/nestang/nestang-master-25k/src/hdmi2/serializer.sv",
+        "ModuleFile" : "C:/Users/Think/OneDrive/Documents/GitHub/TangPrimer-25K-example/nestang-25k/src/hdmi2/serializer.sv",
         "ModuleLine" : 1,
         "ModuleName" : "serializer"
        }
@@ -804,34 +796,34 @@
     ]
    },
    {
-    "InstFile" : "H:/nestang/nestang-master-25k/src/nes_tang20k.v",
-    "InstLine" : 329,
+    "InstFile" : "C:/Users/Think/OneDrive/Documents/GitHub/TangPrimer-25K-example/nestang-25k/src/nes_tang25k.v",
+    "InstLine" : 319,
     "InstName" : "sd_loader",
-    "ModuleFile" : "H:/nestang/nestang-master-25k/src/sd_loader.v",
+    "ModuleFile" : "C:/Users/Think/OneDrive/Documents/GitHub/TangPrimer-25K-example/nestang-25k/src/sd_loader.v",
     "ModuleLine" : 5,
     "ModuleName" : "SDLoader",
     "SubInsts" : [
      {
-      "InstFile" : "H:/nestang/nestang-master-25k/src/sd_loader.v",
+      "InstFile" : "C:/Users/Think/OneDrive/Documents/GitHub/TangPrimer-25K-example/nestang-25k/src/sd_loader.v",
       "InstLine" : 87,
       "InstName" : "sd_reader_i",
-      "ModuleFile" : "H:/nestang/nestang-master-25k/src/sd_file_list_reader.v",
+      "ModuleFile" : "C:/Users/Think/OneDrive/Documents/GitHub/TangPrimer-25K-example/nestang-25k/src/sd_file_list_reader.v",
       "ModuleLine" : 15,
       "ModuleName" : "sd_file_list_reader",
       "SubInsts" : [
        {
-        "InstFile" : "H:/nestang/nestang-master-25k/src/sd_file_list_reader.v",
+        "InstFile" : "C:/Users/Think/OneDrive/Documents/GitHub/TangPrimer-25K-example/nestang-25k/src/sd_file_list_reader.v",
         "InstLine" : 363,
         "InstName" : "u_sd_reader",
-        "ModuleFile" : "H:/nestang/nestang-master-25k/src/sd_reader.sv",
+        "ModuleFile" : "C:/Users/Think/OneDrive/Documents/GitHub/TangPrimer-25K-example/nestang-25k/src/sd_reader.sv",
         "ModuleLine" : 12,
         "ModuleName" : "sd_reader",
         "SubInsts" : [
          {
-          "InstFile" : "H:/nestang/nestang-master-25k/src/sd_reader.sv",
+          "InstFile" : "C:/Users/Think/OneDrive/Documents/GitHub/TangPrimer-25K-example/nestang-25k/src/sd_reader.sv",
           "InstLine" : 78,
           "InstName" : "sdcmd_ctrl_i",
-          "ModuleFile" : "H:/nestang/nestang-master-25k/src/sdcmd_ctrl.sv",
+          "ModuleFile" : "C:/Users/Think/OneDrive/Documents/GitHub/TangPrimer-25K-example/nestang-25k/src/sdcmd_ctrl.sv",
           "ModuleLine" : 10,
           "ModuleName" : "sdcmd_ctrl"
          }
@@ -842,142 +834,142 @@
     ]
    },
    {
-    "InstFile" : "H:/nestang/nestang-master-25k/src/nes_tang20k.v",
-    "InstLine" : 355,
+    "InstFile" : "C:/Users/Think/OneDrive/Documents/GitHub/TangPrimer-25K-example/nestang-25k/src/nes_tang25k.v",
+    "InstLine" : 345,
     "InstName" : "controller",
-    "ModuleFile" : "H:/nestang/nestang-master-25k/src/dualshock_controller.v",
+    "ModuleFile" : "C:/Users/Think/OneDrive/Documents/GitHub/TangPrimer-25K-example/nestang-25k/src/dualshock_controller.v",
     "ModuleLine" : 36,
     "ModuleName" : "dualshock_controller",
     "SubInsts" : [
      {
-      "InstFile" : "H:/nestang/nestang-master-25k/src/dualshock_controller.v",
+      "InstFile" : "C:/Users/Think/OneDrive/Documents/GitHub/TangPrimer-25K-example/nestang-25k/src/dualshock_controller.v",
       "InstLine" : 86,
       "InstName" : "pls",
-      "ModuleFile" : "H:/nestang/nestang-master-25k/src/dualshock_controller.v",
+      "ModuleFile" : "C:/Users/Think/OneDrive/Documents/GitHub/TangPrimer-25K-example/nestang-25k/src/dualshock_controller.v",
       "ModuleLine" : 477,
       "ModuleName" : "ps_pls_gan"
      },
      {
-      "InstFile" : "H:/nestang/nestang-master-25k/src/dualshock_controller.v",
+      "InstFile" : "C:/Users/Think/OneDrive/Documents/GitHub/TangPrimer-25K-example/nestang-25k/src/dualshock_controller.v",
       "InstLine" : 107,
       "InstName" : "cmd",
-      "ModuleFile" : "H:/nestang/nestang-master-25k/src/dualshock_controller.v",
+      "ModuleFile" : "C:/Users/Think/OneDrive/Documents/GitHub/TangPrimer-25K-example/nestang-25k/src/dualshock_controller.v",
       "ModuleLine" : 245,
       "ModuleName" : "txd_commnd"
      },
      {
-      "InstFile" : "H:/nestang/nestang-master-25k/src/dualshock_controller.v",
+      "InstFile" : "C:/Users/Think/OneDrive/Documents/GitHub/TangPrimer-25K-example/nestang-25k/src/dualshock_controller.v",
       "InstLine" : 140,
       "InstName" : "txd",
-      "ModuleFile" : "H:/nestang/nestang-master-25k/src/dualshock_controller.v",
+      "ModuleFile" : "C:/Users/Think/OneDrive/Documents/GitHub/TangPrimer-25K-example/nestang-25k/src/dualshock_controller.v",
       "ModuleLine" : 628,
       "ModuleName" : "ps_txd"
      },
      {
-      "InstFile" : "H:/nestang/nestang-master-25k/src/dualshock_controller.v",
+      "InstFile" : "C:/Users/Think/OneDrive/Documents/GitHub/TangPrimer-25K-example/nestang-25k/src/dualshock_controller.v",
       "InstLine" : 151,
       "InstName" : "rxd",
-      "ModuleFile" : "H:/nestang/nestang-master-25k/src/dualshock_controller.v",
+      "ModuleFile" : "C:/Users/Think/OneDrive/Documents/GitHub/TangPrimer-25K-example/nestang-25k/src/dualshock_controller.v",
       "ModuleLine" : 603,
       "ModuleName" : "ps_rxd"
      }
     ]
    },
    {
-    "InstFile" : "H:/nestang/nestang-master-25k/src/nes_tang20k.v",
-    "InstLine" : 366,
+    "InstFile" : "C:/Users/Think/OneDrive/Documents/GitHub/TangPrimer-25K-example/nestang-25k/src/nes_tang25k.v",
+    "InstLine" : 356,
     "InstName" : "controller2",
-    "ModuleFile" : "H:/nestang/nestang-master-25k/src/dualshock_controller.v",
+    "ModuleFile" : "C:/Users/Think/OneDrive/Documents/GitHub/TangPrimer-25K-example/nestang-25k/src/dualshock_controller.v",
     "ModuleLine" : 36,
     "ModuleName" : "dualshock_controller",
     "SubInsts" : [
      {
-      "InstFile" : "H:/nestang/nestang-master-25k/src/dualshock_controller.v",
+      "InstFile" : "C:/Users/Think/OneDrive/Documents/GitHub/TangPrimer-25K-example/nestang-25k/src/dualshock_controller.v",
       "InstLine" : 86,
       "InstName" : "pls",
-      "ModuleFile" : "H:/nestang/nestang-master-25k/src/dualshock_controller.v",
+      "ModuleFile" : "C:/Users/Think/OneDrive/Documents/GitHub/TangPrimer-25K-example/nestang-25k/src/dualshock_controller.v",
       "ModuleLine" : 477,
       "ModuleName" : "ps_pls_gan"
      },
      {
-      "InstFile" : "H:/nestang/nestang-master-25k/src/dualshock_controller.v",
+      "InstFile" : "C:/Users/Think/OneDrive/Documents/GitHub/TangPrimer-25K-example/nestang-25k/src/dualshock_controller.v",
       "InstLine" : 107,
       "InstName" : "cmd",
-      "ModuleFile" : "H:/nestang/nestang-master-25k/src/dualshock_controller.v",
+      "ModuleFile" : "C:/Users/Think/OneDrive/Documents/GitHub/TangPrimer-25K-example/nestang-25k/src/dualshock_controller.v",
       "ModuleLine" : 245,
       "ModuleName" : "txd_commnd"
      },
      {
-      "InstFile" : "H:/nestang/nestang-master-25k/src/dualshock_controller.v",
+      "InstFile" : "C:/Users/Think/OneDrive/Documents/GitHub/TangPrimer-25K-example/nestang-25k/src/dualshock_controller.v",
       "InstLine" : 140,
       "InstName" : "txd",
-      "ModuleFile" : "H:/nestang/nestang-master-25k/src/dualshock_controller.v",
+      "ModuleFile" : "C:/Users/Think/OneDrive/Documents/GitHub/TangPrimer-25K-example/nestang-25k/src/dualshock_controller.v",
       "ModuleLine" : 628,
       "ModuleName" : "ps_txd"
      },
      {
-      "InstFile" : "H:/nestang/nestang-master-25k/src/dualshock_controller.v",
+      "InstFile" : "C:/Users/Think/OneDrive/Documents/GitHub/TangPrimer-25K-example/nestang-25k/src/dualshock_controller.v",
       "InstLine" : 151,
       "InstName" : "rxd",
-      "ModuleFile" : "H:/nestang/nestang-master-25k/src/dualshock_controller.v",
+      "ModuleFile" : "C:/Users/Think/OneDrive/Documents/GitHub/TangPrimer-25K-example/nestang-25k/src/dualshock_controller.v",
       "ModuleLine" : 603,
       "ModuleName" : "ps_rxd"
      }
     ]
    },
    {
-    "InstFile" : "H:/nestang/nestang-master-25k/src/nes_tang20k.v",
-    "InstLine" : 376,
+    "InstFile" : "C:/Users/Think/OneDrive/Documents/GitHub/TangPrimer-25K-example/nestang-25k/src/nes_tang25k.v",
+    "InstLine" : 366,
     "InstName" : "af_square",
-    "ModuleFile" : "H:/nestang/nestang-master-25k/src/autofire.v",
+    "ModuleFile" : "C:/Users/Think/OneDrive/Documents/GitHub/TangPrimer-25K-example/nestang-25k/src/autofire.v",
     "ModuleLine" : 4,
     "ModuleName" : "Autofire"
    },
    {
-    "InstFile" : "H:/nestang/nestang-master-25k/src/nes_tang20k.v",
-    "InstLine" : 377,
+    "InstFile" : "C:/Users/Think/OneDrive/Documents/GitHub/TangPrimer-25K-example/nestang-25k/src/nes_tang25k.v",
+    "InstLine" : 367,
     "InstName" : "af_triangle",
-    "ModuleFile" : "H:/nestang/nestang-master-25k/src/autofire.v",
+    "ModuleFile" : "C:/Users/Think/OneDrive/Documents/GitHub/TangPrimer-25K-example/nestang-25k/src/autofire.v",
     "ModuleLine" : 4,
     "ModuleName" : "Autofire"
    },
    {
-    "InstFile" : "H:/nestang/nestang-master-25k/src/nes_tang20k.v",
-    "InstLine" : 378,
+    "InstFile" : "C:/Users/Think/OneDrive/Documents/GitHub/TangPrimer-25K-example/nestang-25k/src/nes_tang25k.v",
+    "InstLine" : 368,
     "InstName" : "af_square2",
-    "ModuleFile" : "H:/nestang/nestang-master-25k/src/autofire.v",
+    "ModuleFile" : "C:/Users/Think/OneDrive/Documents/GitHub/TangPrimer-25K-example/nestang-25k/src/autofire.v",
     "ModuleLine" : 4,
     "ModuleName" : "Autofire"
    },
    {
-    "InstFile" : "H:/nestang/nestang-master-25k/src/nes_tang20k.v",
-    "InstLine" : 379,
+    "InstFile" : "C:/Users/Think/OneDrive/Documents/GitHub/TangPrimer-25K-example/nestang-25k/src/nes_tang25k.v",
+    "InstLine" : 369,
     "InstName" : "af_triangle2",
-    "ModuleFile" : "H:/nestang/nestang-master-25k/src/autofire.v",
+    "ModuleFile" : "C:/Users/Think/OneDrive/Documents/GitHub/TangPrimer-25K-example/nestang-25k/src/autofire.v",
     "ModuleLine" : 4,
     "ModuleName" : "Autofire"
    },
    {
-    "InstFile" : "H:/nestang/nestang-master-25k/src/nes_tang20k.v",
-    "InstLine" : 384,
+    "InstFile" : "C:/Users/Think/OneDrive/Documents/GitHub/TangPrimer-25K-example/nestang-25k/src/nes_tang25k.v",
+    "InstLine" : 374,
     "InstName" : "usb_controller",
-    "ModuleFile" : "H:/nestang/nestang-master-25k/src/usb_hid_host.v",
+    "ModuleFile" : "C:/Users/Think/OneDrive/Documents/GitHub/TangPrimer-25K-example/nestang-25k/src/usb_hid_host.v",
     "ModuleLine" : 12,
     "ModuleName" : "usb_hid_host",
     "SubInsts" : [
      {
-      "InstFile" : "H:/nestang/nestang-master-25k/src/usb_hid_host.v",
+      "InstFile" : "C:/Users/Think/OneDrive/Documents/GitHub/TangPrimer-25K-example/nestang-25k/src/usb_hid_host.v",
       "InstLine" : 48,
       "InstName" : "ukp",
-      "ModuleFile" : "H:/nestang/nestang-master-25k/src/usb_hid_host.v",
+      "ModuleFile" : "C:/Users/Think/OneDrive/Documents/GitHub/TangPrimer-25K-example/nestang-25k/src/usb_hid_host.v",
       "ModuleLine" : 180,
       "ModuleName" : "ukp",
       "SubInsts" : [
        {
-        "InstFile" : "H:/nestang/nestang-master-25k/src/usb_hid_host.v",
+        "InstFile" : "C:/Users/Think/OneDrive/Documents/GitHub/TangPrimer-25K-example/nestang-25k/src/usb_hid_host.v",
         "InstLine" : 241,
         "InstName" : "ukprom",
-        "ModuleFile" : "H:/nestang/nestang-master-25k/src/usb_hid_host_rom.v",
+        "ModuleFile" : "C:/Users/Think/OneDrive/Documents/GitHub/TangPrimer-25K-example/nestang-25k/src/usb_hid_host_rom.v",
         "ModuleLine" : 1,
         "ModuleName" : "usb_hid_host_rom"
        }
@@ -986,26 +978,26 @@
     ]
    },
    {
-    "InstFile" : "H:/nestang/nestang-master-25k/src/nes_tang20k.v",
-    "InstLine" : 396,
+    "InstFile" : "C:/Users/Think/OneDrive/Documents/GitHub/TangPrimer-25K-example/nestang-25k/src/nes_tang25k.v",
+    "InstLine" : 386,
     "InstName" : "usb_controller2",
-    "ModuleFile" : "H:/nestang/nestang-master-25k/src/usb_hid_host.v",
+    "ModuleFile" : "C:/Users/Think/OneDrive/Documents/GitHub/TangPrimer-25K-example/nestang-25k/src/usb_hid_host.v",
     "ModuleLine" : 12,
     "ModuleName" : "usb_hid_host",
     "SubInsts" : [
      {
-      "InstFile" : "H:/nestang/nestang-master-25k/src/usb_hid_host.v",
+      "InstFile" : "C:/Users/Think/OneDrive/Documents/GitHub/TangPrimer-25K-example/nestang-25k/src/usb_hid_host.v",
       "InstLine" : 48,
       "InstName" : "ukp",
-      "ModuleFile" : "H:/nestang/nestang-master-25k/src/usb_hid_host.v",
+      "ModuleFile" : "C:/Users/Think/OneDrive/Documents/GitHub/TangPrimer-25K-example/nestang-25k/src/usb_hid_host.v",
       "ModuleLine" : 180,
       "ModuleName" : "ukp",
       "SubInsts" : [
        {
-        "InstFile" : "H:/nestang/nestang-master-25k/src/usb_hid_host.v",
+        "InstFile" : "C:/Users/Think/OneDrive/Documents/GitHub/TangPrimer-25K-example/nestang-25k/src/usb_hid_host.v",
         "InstLine" : 241,
         "InstName" : "ukprom",
-        "ModuleFile" : "H:/nestang/nestang-master-25k/src/usb_hid_host_rom.v",
+        "ModuleFile" : "C:/Users/Think/OneDrive/Documents/GitHub/TangPrimer-25K-example/nestang-25k/src/usb_hid_host_rom.v",
         "ModuleLine" : 1,
         "ModuleName" : "usb_hid_host_rom"
        }
@@ -1014,10 +1006,10 @@
     ]
    },
    {
-    "InstFile" : "H:/nestang/nestang-master-25k/src/print.v",
+    "InstFile" : "C:/Users/Think/OneDrive/Documents/GitHub/TangPrimer-25K-example/nestang-25k/src/print.v",
     "InstLine" : 105,
     "InstName" : "tx",
-    "ModuleFile" : "H:/nestang/nestang-master-25k/src/uart_tx_V2.v",
+    "ModuleFile" : "C:/Users/Think/OneDrive/Documents/GitHub/TangPrimer-25K-example/nestang-25k/src/uart_tx_V2.v",
     "ModuleLine" : 1,
     "ModuleName" : "uart_tx_V2"
    }

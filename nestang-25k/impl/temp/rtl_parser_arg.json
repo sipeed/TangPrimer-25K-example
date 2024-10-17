@@ -2,155 +2,155 @@
  "Device" : "GW5A-25A",
  "Files" : [
   {
-   "Path" : "H:/nestang/nestang-25k/src/MicroCode.v",
+   "Path" : "C:/Users/Think/OneDrive/Documents/GitHub/TangPrimer-25K-example/nestang-25k/src/MicroCode.v",
    "Type" : "verilog"
   },
   {
-   "Path" : "H:/nestang/nestang-25k/src/apu.v",
+   "Path" : "C:/Users/Think/OneDrive/Documents/GitHub/TangPrimer-25K-example/nestang-25k/src/apu.v",
    "Type" : "verilog"
   },
   {
-   "Path" : "H:/nestang/nestang-25k/src/autofire.v",
+   "Path" : "C:/Users/Think/OneDrive/Documents/GitHub/TangPrimer-25K-example/nestang-25k/src/autofire.v",
    "Type" : "verilog"
   },
   {
-   "Path" : "H:/nestang/nestang-25k/src/compat.v",
+   "Path" : "C:/Users/Think/OneDrive/Documents/GitHub/TangPrimer-25K-example/nestang-25k/src/compat.v",
    "Type" : "verilog"
   },
   {
-   "Path" : "H:/nestang/nestang-25k/src/config.sv",
+   "Path" : "C:/Users/Think/OneDrive/Documents/GitHub/TangPrimer-25K-example/nestang-25k/src/config.sv",
    "Type" : "verilog"
   },
   {
-   "Path" : "H:/nestang/nestang-25k/src/cpu.v",
+   "Path" : "C:/Users/Think/OneDrive/Documents/GitHub/TangPrimer-25K-example/nestang-25k/src/cpu.v",
    "Type" : "verilog"
   },
   {
-   "Path" : "H:/nestang/nestang-25k/src/dualshock_controller.v",
+   "Path" : "C:/Users/Think/OneDrive/Documents/GitHub/TangPrimer-25K-example/nestang-25k/src/dualshock_controller.v",
    "Type" : "verilog"
   },
   {
-   "Path" : "H:/nestang/nestang-25k/src/game_loader.v",
+   "Path" : "C:/Users/Think/OneDrive/Documents/GitHub/TangPrimer-25K-example/nestang-25k/src/game_loader.v",
    "Type" : "verilog"
   },
   {
-   "Path" : "H:/nestang/nestang-25k/src/gowin_clkdiv/gowin_clkdiv.v",
+   "Path" : "C:/Users/Think/OneDrive/Documents/GitHub/TangPrimer-25K-example/nestang-25k/src/gowin_clkdiv/gowin_clkdiv.v",
    "Type" : "verilog"
   },
   {
-   "Path" : "H:/nestang/nestang-25k/src/gowin_pll/gowin_pll.v",
+   "Path" : "C:/Users/Think/OneDrive/Documents/GitHub/TangPrimer-25K-example/nestang-25k/src/gowin_pll/gowin_pll.v",
    "Type" : "verilog"
   },
   {
-   "Path" : "H:/nestang/nestang-25k/src/gowin_rpll_usb.v",
+   "Path" : "C:/Users/Think/OneDrive/Documents/GitHub/TangPrimer-25K-example/nestang-25k/src/gowin_rpll_usb.v",
    "Type" : "verilog"
   },
   {
-   "Path" : "H:/nestang/nestang-25k/src/hdmi/gowin_pll/gowin_pll_hdmi.v",
+   "Path" : "C:/Users/Think/OneDrive/Documents/GitHub/TangPrimer-25K-example/nestang-25k/src/hdmi/gowin_pll/gowin_pll_hdmi.v",
    "Type" : "verilog"
   },
   {
-   "Path" : "H:/nestang/nestang-25k/src/hdmi2/audio_clock_regeneration_packet.sv",
+   "Path" : "C:/Users/Think/OneDrive/Documents/GitHub/TangPrimer-25K-example/nestang-25k/src/hdmi2/audio_clock_regeneration_packet.sv",
    "Type" : "verilog"
   },
   {
-   "Path" : "H:/nestang/nestang-25k/src/hdmi2/audio_info_frame.sv",
+   "Path" : "C:/Users/Think/OneDrive/Documents/GitHub/TangPrimer-25K-example/nestang-25k/src/hdmi2/audio_info_frame.sv",
    "Type" : "verilog"
   },
   {
-   "Path" : "H:/nestang/nestang-25k/src/hdmi2/audio_sample_packet.sv",
+   "Path" : "C:/Users/Think/OneDrive/Documents/GitHub/TangPrimer-25K-example/nestang-25k/src/hdmi2/audio_sample_packet.sv",
    "Type" : "verilog"
   },
   {
-   "Path" : "H:/nestang/nestang-25k/src/hdmi2/auxiliary_video_information_info_frame.sv",
+   "Path" : "C:/Users/Think/OneDrive/Documents/GitHub/TangPrimer-25K-example/nestang-25k/src/hdmi2/auxiliary_video_information_info_frame.sv",
    "Type" : "verilog"
   },
   {
-   "Path" : "H:/nestang/nestang-25k/src/hdmi2/hdmi.sv",
+   "Path" : "C:/Users/Think/OneDrive/Documents/GitHub/TangPrimer-25K-example/nestang-25k/src/hdmi2/hdmi.sv",
    "Type" : "verilog"
   },
   {
-   "Path" : "H:/nestang/nestang-25k/src/hdmi2/packet_assembler.sv",
+   "Path" : "C:/Users/Think/OneDrive/Documents/GitHub/TangPrimer-25K-example/nestang-25k/src/hdmi2/packet_assembler.sv",
    "Type" : "verilog"
   },
   {
-   "Path" : "H:/nestang/nestang-25k/src/hdmi2/packet_picker.sv",
+   "Path" : "C:/Users/Think/OneDrive/Documents/GitHub/TangPrimer-25K-example/nestang-25k/src/hdmi2/packet_picker.sv",
    "Type" : "verilog"
   },
   {
-   "Path" : "H:/nestang/nestang-25k/src/hdmi2/serializer.sv",
+   "Path" : "C:/Users/Think/OneDrive/Documents/GitHub/TangPrimer-25K-example/nestang-25k/src/hdmi2/serializer.sv",
    "Type" : "verilog"
   },
   {
-   "Path" : "H:/nestang/nestang-25k/src/hdmi2/source_product_description_info_frame.sv",
+   "Path" : "C:/Users/Think/OneDrive/Documents/GitHub/TangPrimer-25K-example/nestang-25k/src/hdmi2/source_product_description_info_frame.sv",
    "Type" : "verilog"
   },
   {
-   "Path" : "H:/nestang/nestang-25k/src/hdmi2/tmds_channel.sv",
+   "Path" : "C:/Users/Think/OneDrive/Documents/GitHub/TangPrimer-25K-example/nestang-25k/src/hdmi2/tmds_channel.sv",
    "Type" : "verilog"
   },
   {
-   "Path" : "H:/nestang/nestang-25k/src/hw_sound.v",
+   "Path" : "C:/Users/Think/OneDrive/Documents/GitHub/TangPrimer-25K-example/nestang-25k/src/hw_sound.v",
    "Type" : "verilog"
   },
   {
-   "Path" : "H:/nestang/nestang-25k/src/hw_uart.v",
+   "Path" : "C:/Users/Think/OneDrive/Documents/GitHub/TangPrimer-25K-example/nestang-25k/src/hw_uart.v",
    "Type" : "verilog"
   },
   {
-   "Path" : "H:/nestang/nestang-25k/src/memory_controller.v",
+   "Path" : "C:/Users/Think/OneDrive/Documents/GitHub/TangPrimer-25K-example/nestang-25k/src/memory_controller.v",
    "Type" : "verilog"
   },
   {
-   "Path" : "H:/nestang/nestang-25k/src/mmu.v",
+   "Path" : "C:/Users/Think/OneDrive/Documents/GitHub/TangPrimer-25K-example/nestang-25k/src/mmu.v",
    "Type" : "verilog"
   },
   {
-   "Path" : "H:/nestang/nestang-25k/src/nes.v",
+   "Path" : "C:/Users/Think/OneDrive/Documents/GitHub/TangPrimer-25K-example/nestang-25k/src/nes.v",
    "Type" : "verilog"
   },
   {
-   "Path" : "H:/nestang/nestang-25k/src/nes2hdmi.sv",
+   "Path" : "C:/Users/Think/OneDrive/Documents/GitHub/TangPrimer-25K-example/nestang-25k/src/nes2hdmi.sv",
    "Type" : "verilog"
   },
   {
-   "Path" : "H:/nestang/nestang-25k/src/nes_tang25k.v",
+   "Path" : "C:/Users/Think/OneDrive/Documents/GitHub/TangPrimer-25K-example/nestang-25k/src/nes_tang25k.v",
    "Type" : "verilog"
   },
   {
-   "Path" : "H:/nestang/nestang-25k/src/ppu.v",
+   "Path" : "C:/Users/Think/OneDrive/Documents/GitHub/TangPrimer-25K-example/nestang-25k/src/ppu.v",
    "Type" : "verilog"
   },
   {
-   "Path" : "H:/nestang/nestang-25k/src/sd_file_list_reader.v",
+   "Path" : "C:/Users/Think/OneDrive/Documents/GitHub/TangPrimer-25K-example/nestang-25k/src/sd_file_list_reader.v",
    "Type" : "verilog"
   },
   {
-   "Path" : "H:/nestang/nestang-25k/src/sd_loader.v",
+   "Path" : "C:/Users/Think/OneDrive/Documents/GitHub/TangPrimer-25K-example/nestang-25k/src/sd_loader.v",
    "Type" : "verilog"
   },
   {
-   "Path" : "H:/nestang/nestang-25k/src/sd_reader.sv",
+   "Path" : "C:/Users/Think/OneDrive/Documents/GitHub/TangPrimer-25K-example/nestang-25k/src/sd_reader.sv",
    "Type" : "verilog"
   },
   {
-   "Path" : "H:/nestang/nestang-25k/src/sdcmd_ctrl.sv",
+   "Path" : "C:/Users/Think/OneDrive/Documents/GitHub/TangPrimer-25K-example/nestang-25k/src/sdcmd_ctrl.sv",
    "Type" : "verilog"
   },
   {
-   "Path" : "H:/nestang/nestang-25k/src/sdram.v",
+   "Path" : "C:/Users/Think/OneDrive/Documents/GitHub/TangPrimer-25K-example/nestang-25k/src/sdram.v",
    "Type" : "verilog"
   },
   {
-   "Path" : "H:/nestang/nestang-25k/src/uart_tx_V2.v",
+   "Path" : "C:/Users/Think/OneDrive/Documents/GitHub/TangPrimer-25K-example/nestang-25k/src/uart_tx_V2.v",
    "Type" : "verilog"
   },
   {
-   "Path" : "H:/nestang/nestang-25k/src/usb_hid_host.v",
+   "Path" : "C:/Users/Think/OneDrive/Documents/GitHub/TangPrimer-25K-example/nestang-25k/src/usb_hid_host.v",
    "Type" : "verilog"
   },
   {
-   "Path" : "H:/nestang/nestang-25k/src/usb_hid_host_rom.v",
+   "Path" : "C:/Users/Think/OneDrive/Documents/GitHub/TangPrimer-25K-example/nestang-25k/src/usb_hid_host_rom.v",
    "Type" : "verilog"
   }
  ],
@@ -158,7 +158,7 @@
 
  ],
  "LoopLimit" : 2000,
- "ResultFile" : "H:/nestang/nestang-25k/impl/temp/rtl_parser.result",
+ "ResultFile" : "C:/Users/Think/OneDrive/Documents/GitHub/TangPrimer-25K-example/nestang-25k/impl/temp/rtl_parser.result",
  "Top" : "NES_Tang25k",
  "VerilogStd" : "sysv",
  "VhdlStd" : "vhdl_93"
