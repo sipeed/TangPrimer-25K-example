@@ -1,6 +1,13 @@
+// Press S1 to see some LED's blinking
+
+// If you get the ERROR PR2017 'x' cannot be placed according to constraint, you need to change some dual used pins to IO
+// Process > Place & Route > Configuration > Dual-Purpose Pins
+// Enable Use READY/DONE/CPU as regular IO
+
+
 module top#(
-    parameter pmod_num = 8, 
-    parameter pmod_io_num = pmod_num * 8 - 1,
+    parameter pmod_num = 3, 
+    parameter pmod_io_num = 3 * 8 - 1,
     parameter frequency = 50_000_000,
     parameter count_ms  = frequency / 1000 ,
     parameter count_us  = count_ms  / 1000 
@@ -35,8 +42,8 @@ always @(posedge clk) begin
 end
 
 genvar pmod_sel;
-generate for ( pmod_sel = 0 ; pmod_sel < 8 ; pmod_sel = pmod_sel + 1)
-        assign pmod_io[ pmod_sel * 8 + 7 : pmod_sel * 8 ] = ~ led_8_state_reg ;
+generate for ( pmod_sel = 0 ; pmod_sel < pmod_num ; pmod_sel = pmod_sel + 1)
+    assign pmod_io[ pmod_sel * 8 + 7 : pmod_sel * 8 ] = ~ led_8_state_reg ;
 endgenerate
 
 assign led = led_output ;
